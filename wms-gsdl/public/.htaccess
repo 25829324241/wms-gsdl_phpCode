@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks -Multiviews
+RewriteEngine On
+
+# 检查请求是否不是已经是一个文件或目录
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 将所有请求重写到 index.php
+# RewriteRule (.*)$ index.php/$1 [QSA,PT,L]
+RewriteRule (.*)$ index.php?/$1 [QSA,PT,L]
+</IfModule>

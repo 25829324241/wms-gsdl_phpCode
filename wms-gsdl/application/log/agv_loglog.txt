@@ -1,0 +1,45 @@
+2025-12-27 20:49:25  'agv到达机械臂位置回调:task_tote_outbound_agv_shelf_176683875252'
+2025-12-27 20:49:26  'agv到达机械臂位任务为空:task_tote_outbound_agv_shelf_176683875252'
+2025-12-27 20:49:31  'agv到达机械臂位置回调:task_tote_outbound_agv_shelf_176683875252'
+2025-12-27 20:49:31  'agv到达机械臂位任务为空:task_tote_outbound_agv_shelf_176683875252'
+2025-12-27 21:12:12  'agv到达机械臂位置回调:task_tote_outbound_agv_shelf_1766840715427'
+2025-12-27 21:12:12  'agv完成开始执行机械臂回调'
+2025-12-27 21:12:12  'agv完成开始执行机械臂回调-找机械臂起始库位'
+2025-12-27 21:12:12  'agv完成开始执行机械臂回调-是出库的'
+2025-12-27 21:12:12  'agv完成开始执行机械臂回调-找来源库位-1'
+2025-12-27 21:12:12  'agv完成开始执行机械臂回调-找目标库位-2:{"id":59,"name":"0003440XX0005000","numbering":"0003440XX0005000","location_name":null,"location_flag":null,"real_location":"0003440XX0005000","py":null,"wh_id":1,"wh_a_id":2,"shelves_id":10,"type":"2","type_name":null,"max_store_num":1,"status":"1","roadway":0,"row":0,"floor":0,"col":0,"position":null,"priority":99,"depth":1,"depth_flag":0,"beat":null,"info":null,"aid":1,"add_time":1734668672,"up_aid":1,"up_time":1734780962,"task_unlock":null,"use_unlock":null,"cid":1,"type_text":"Type 2","status_text":"Status 1","add_time_text":"2024-12-20 12:24:32","up_time_text":"2024-12-21 19:36:02","task_unlock_text":"","use_unlock_text":""}'
+2025-12-27 21:12:12  'agv完成开始执行机械臂回调-找目标库位-3:[0]'
+2025-12-27 21:14:23  'agv到达机械臂位置回调:task_tote_outbound_agv_shelf_1766840715427'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调-找机械臂起始库位'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调-是出库的'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调-找来源库位-1'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调-找目标库位-2:{"id":59,"name":"0003440XX0005000","numbering":"0003440XX0005000","location_name":null,"location_flag":null,"real_location":"0003440XX0005000","py":null,"wh_id":1,"wh_a_id":2,"shelves_id":10,"type":"2","type_name":null,"max_store_num":1,"status":"1","roadway":0,"row":0,"floor":0,"col":0,"position":null,"priority":99,"depth":1,"depth_flag":0,"beat":null,"info":null,"aid":1,"add_time":1734668672,"up_aid":1,"up_time":1734780962,"task_unlock":null,"use_unlock":null,"cid":1,"type_text":"Type 2","status_text":"Status 1","add_time_text":"2024-12-20 12:24:32","up_time_text":"2024-12-21 19:36:02","task_unlock_text":"","use_unlock_text":""}'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调-找目标库位-3:[0]'
+2025-12-27 21:14:23  'agv完成开始执行机械臂回调-找目标库位-4-错误think\\exception\\ErrorException: Array to string conversion in D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\db\\Builder.php:380
+Stack trace:
+#0 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\db\\Builder.php(380): think\\Error::appError(8, \'Array to string...\', \'D:\\\\phpstudy\\\\wms...\', 380, Array)
+#1 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\db\\Builder.php(303): think\\db\\Builder->parseWhereItem(\'id\', Array, \'AND\', Array, Array)
+#2 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\db\\Builder.php(240): think\\db\\Builder->buildWhere(Array, Array)
+#3 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\db\\Builder.php(725): think\\db\\Builder->parseWhere(Array, Array)
+#4 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\db\\Query.php(2664): think\\db\\Builder->select(Array)
+#5 D:\\phpstudy\\wms-gsdl\\application\\api\\controller\\v1\\Report.php(201): think\\db\\Query->find()
+#6 D:\\phpstudy\\wms-gsdl\\application\\api\\controller\\v1\\Report.php(45): app\\api\\controller\\v1\\Report->agv_end(\'task_tote_outbo...\')
+#7 [internal function]: app\\api\\controller\\v1\\Report->agv_report()
+#8 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\App.php(343): ReflectionMethod->invokeArgs(Object(app\\api\\controller\\v1\\Report), Array)
+#9 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\App.php(611): think\\App::invokeMethod(Array, Array)
+#10 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\App.php(456): think\\App::module(Array, Array, true)
+#11 D:\\phpstudy\\wms-gsdl\\thinkphp\\library\\think\\App.php(139): think\\App::exec(Array, Array)
+#12 D:\\phpstudy\\wms-gsdl\\thinkphp\\start.php(19): think\\App::run()
+#13 D:\\phpstudy\\wms-gsdl\\public\\index.php(23): require(\'D:\\\\phpstudy\\\\wms...\')
+#14 {main}'
+2025-12-27 21:21:48  'agv到达机械臂位置回调:task_tote_outbound_agv_shelf_1766840715427'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-找机械臂起始库位'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-是出库的'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-找来源库位-1'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-找目标库位-2:{"id":59,"name":"0003440XX0005000","numbering":"0003440XX0005000","location_name":null,"location_flag":null,"real_location":"0003440XX0005000","py":null,"wh_id":1,"wh_a_id":2,"shelves_id":10,"type":"2","type_name":null,"max_store_num":1,"status":"1","roadway":0,"row":0,"floor":0,"col":0,"position":null,"priority":99,"depth":1,"depth_flag":0,"beat":null,"info":null,"aid":1,"add_time":1734668672,"up_aid":1,"up_time":1734780962,"task_unlock":null,"use_unlock":null,"cid":1,"type_text":"Type 2","status_text":"Status 1","add_time_text":"2024-12-20 12:24:32","up_time_text":"2024-12-21 19:36:02","task_unlock_text":"","use_unlock_text":""}'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-找目标库位-3:[0]'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-找目标库位-4:{"id":287,"name":"P000010B01011","numbering":"P000010B01011","location_name":null,"location_flag":null,"real_location":"P000010B01011","py":null,"wh_id":1,"wh_a_id":2,"shelves_id":10,"type":"1","type_name":null,"max_store_num":1,"status":"1","roadway":7,"row":0,"floor":0,"col":0,"position":null,"priority":99,"depth":1,"depth_flag":0,"beat":null,"info":null,"aid":1,"add_time":1734668673,"up_aid":1,"up_time":1734780962,"task_unlock":null,"use_unlock":null,"cid":1,"type_text":"Type 1","status_text":"Status 1","add_time_text":"2024-12-20 12:24:33","up_time_text":"2024-12-21 19:36:02","task_unlock_text":"","use_unlock_text":""}'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-start添加机械臂-end:4'
+2025-12-27 21:21:48  'agv完成开始执行机械臂回调-添加性价比任务成功-end:4'

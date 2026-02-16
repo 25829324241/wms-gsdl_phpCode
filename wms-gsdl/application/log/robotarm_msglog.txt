@@ -1,0 +1,30 @@
+2025-12-25 17:44:40  array (
+  '/api/v1/report/agv_report' => '',
+)
+2025-12-25 17:46:56  array (
+  '/api/v1/report/agv_report' => '',
+)
+2025-12-25 17:54:57  array (
+  '/api/v1/report/agv_report' => '',
+  '{"sign":"80528ff9a6274554","robotTaskCode":"de35672384a545c48711d7a14edc4a7c","singleRobotCode":"17338","currentSeq":"-1","extra":{"async":"0","values":{"mapCode":"XX","slotCategory":"SITE","slotCode":"0011734XX0015030","slotName":"0011734XX0015030","x":"11734","y":"15030","method":"end","carrierCategory":"POD","carrierType":"2","carrierCode":"000009","pileCount":"1","taskTime":"2025-12-25_17:46:55_140","amrCategory":"LMR","amrType":"17","amrCode":"17338","carrierName":"000009","carrierDir":"90_0","layerNo":"1"}}}' => '',
+)
+2025-12-25 17:55:04  array (
+  '/api/v1/report/agv_report' => '',
+  '{"sign":"80528ff9a6274554","robotTaskCode":"de35672384a545c48711d7a14edc4a7c","singleRobotCode":"17338","currentSeq":"-1","extra":{"async":"0","values":{"mapCode":"XX","slotCategory":"SITE","slotCode":"0011734XX0015030","slotName":"0011734XX0015030","x":"11734","y":"15030","method":"end","carrierCategory":"POD","carrierType":"2","carrierCode":"000009","pileCount":"1","taskTime":"2025-12-25_17:46:55_140","amrCategory":"LMR","amrType":"17","amrCode":"17338","carrierName":"000009","carrierDir":"90_0","layerNo":"1"}}}' => '',
+)
+2025-12-25 17:55:23  array (
+  '/api/v1/report/agv_report' => '',
+  '{"sign":"80528ff9a6274554","robotTaskCode":"de35672384a545c48711d7a14edc4a7c","singleRobotCode":"17338","currentSeq":"-1","extra":{"async":"0","values":{"mapCode":"XX","slotCategory":"SITE","slotCode":"0011734XX0015030","slotName":"0011734XX0015030","x":"11734","y":"15030","method":"end","carrierCategory":"POD","carrierType":"2","carrierCode":"000009","pileCount":"1","taskTime":"2025-12-25_17:46:55_140","amrCategory":"LMR","amrType":"17","amrCode":"17338","carrierName":"000009","carrierDir":"90_0","layerNo":"1"}}}' => '',
+)
+2025-12-25 17:55:25  array (
+  '/api/v1/report/agv_report' => '',
+  '{"sign":"80528ff9a6274554","robotTaskCode":"de35672384a545c48711d7a14edc4a7c","singleRobotCode":"17338","currentSeq":"-1","extra":{"async":"0","values":{"mapCode":"XX","slotCategory":"SITE","slotCode":"0011734XX0015030","slotName":"0011734XX0015030","x":"11734","y":"15030","method":"end","carrierCategory":"POD","carrierType":"2","carrierCode":"000009","pileCount":"1","taskTime":"2025-12-25_17:46:55_140","amrCategory":"LMR","amrType":"17","amrCode":"17338","carrierName":"000009","carrierDir":"90_0","layerNo":"1"}}}' => '',
+)
+2025-12-25 17:55:25  array (
+  '/api/v1/report/agv_report' => '',
+  '{"sign":"80528ff9a6274554","robotTaskCode":"de35672384a545c48711d7a14edc4a7c","singleRobotCode":"17338","currentSeq":"-1","extra":{"async":"0","values":{"mapCode":"XX","slotCategory":"SITE","slotCode":"0011734XX0015030","slotName":"0011734XX0015030","x":"11734","y":"15030","method":"end","carrierCategory":"POD","carrierType":"2","carrierCode":"000009","pileCount":"1","taskTime":"2025-12-25_17:46:55_140","amrCategory":"LMR","amrType":"17","amrCode":"17338","carrierName":"000009","carrierDir":"90_0","layerNo":"1"}}}' => '',
+)
+2025-12-25 17:55:42  array (
+  '/api/v1/report/agv_report' => '',
+  '{"sign":"80528ff9a6274554","robotTaskCode":"de35672384a545c48711d7a14edc4a7c","singleRobotCode":"17338","currentSeq":"-1","extra":{"async":"0","values":{"mapCode":"XX","slotCategory":"SITE","slotCode":"0011734XX0015030","slotName":"0011734XX0015030","x":"11734","y":"15030","method":"end","carrierCategory":"POD","carrierType":"2","carrierCode":"000009","pileCount":"1","taskTime":"2025-12-25_17:46:55_140","amrCategory":"LMR","amrType":"17","amrCode":"17338","carrierName":"000009","carrierDir":"90_0","layerNo":"1"}}}' => '',
+)

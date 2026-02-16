@@ -1,0 +1,1372 @@
+2024-12-18 16:01:08  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 11,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 169,
+    'wh_l_numbering' => 'CS01-01-05-01',
+    'real_location' => 'CS01-01-05-01',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1733475738,
+    'up_aid' => 1,
+    'up_time' => 1733475738,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 11,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 169,
+    'wh_l_numbering' => 'CS01-01-05-01',
+    'real_location' => 'CS01-01-05-01',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1733475738,
+    'up_aid' => 1,
+    'up_time' => 1733475738,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-05-01',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 11:02:48  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 11:55:29  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 12:42:20  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 12:47:49  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 12:53:03  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 12:54:25  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 12:56:55  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 13:01:31  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 13:05:23  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 13:08:16  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 13:09:48  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 13:15:03  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))
+2024-12-21 13:16:24  app\common\model\WorkbenchBit::__set_state(array(
+   'name' => 'workbench_bit',
+   'autoWriteTimestamp' => false,
+   'createTime' => false,
+   'updateTime' => false,
+   'deleteTime' => false,
+   'append' => 
+  array (
+    0 => 'add_time_text',
+    1 => 'up_time_text',
+  ),
+   'connection' => 
+  array (
+  ),
+   'parent' => NULL,
+   'query' => NULL,
+   'table' => NULL,
+   'class' => 'app\\common\\model\\WorkbenchBit',
+   'error' => NULL,
+   'validate' => NULL,
+   'pk' => NULL,
+   'field' => 
+  array (
+  ),
+   'except' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'origin' => 
+  array (
+    'id' => 15,
+    'w_id' => 6,
+    'w_numbering' => 'CS01',
+    'wh_l_id' => 663,
+    'wh_l_numbering' => 'CS01-01-06-02',
+    'real_location' => 'CS01-01-06-02',
+    'status' => '1',
+    'aid' => 1,
+    'add_time' => 1734668674,
+    'up_aid' => 1,
+    'up_time' => 1734668674,
+    'cid' => 1,
+  ),
+   'relation' => 
+  array (
+  ),
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'dateFormat' => false,
+   'type' => 
+  array (
+  ),
+   'isUpdate' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => 
+  array (
+    'real_location' => 'CS01-01-06-02',
+  ),
+   'failException' => false,
+   'useGlobalScope' => true,
+   'batchValidate' => false,
+   'resultSetType' => 'array',
+   'relationWrite' => NULL,
+))

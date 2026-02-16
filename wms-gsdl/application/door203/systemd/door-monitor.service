@@ -1,0 +1,18 @@
+[Unit]
+Description=Door Monitor Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/xp/www/wms-gsdl/application/door203
+ExecStart=/bin/bash /xp/www/wms-gsdl/application/door203/start_door.sh
+ExecStop=/bin/bash /xp/www/wms-gsdl/application/door203/stop_door.sh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

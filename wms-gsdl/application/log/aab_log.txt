@@ -1,0 +1,7080 @@
+2024-12-13 12:37:58  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734019638,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734051189,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '2',
+          'groups_text' => '二级管理组',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734019638,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734051189,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734064414,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064414,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734064414,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064414,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2024-12-13 12:37:58  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734019638,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734051189,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '2',
+          'groups_text' => '二级管理组',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734019638,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734051189,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734064414,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064414,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734064414,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064414,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2024-12-13 12:38:36  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734019638,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064716,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734019638,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064716,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734064414,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064414,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734064414,
+          'loginip' => '172.29.129.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1734064414,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-17 16:35:45  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-17 16:35:50  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-17 16:36:47  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-17 16:37:04  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-18 11:43:12  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-18 11:43:54  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758098018,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758098018,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-18 15:25:52  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758179848,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758179848,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758179848,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758179848,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-19 14:40:16  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758187240,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758187240,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758187240,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758187240,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-19 14:40:27  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758187240,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758187240,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1758187240,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1758187240,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-09-28 15:09:35  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1759030066,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1759030066,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1759030066,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1759030066,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-11-20 09:09:14  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1763600884,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1763600884,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1763600884,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1763600884,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2025-11-20 09:33:14  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1763600884,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1763600884,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1763600884,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1763600884,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2026-01-19 14:07:22  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2026-01-19 14:11:11  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 6,
+          'username' => 'ceshi(cid:1)',
+          'nickname' => 'ceshi',
+          'avatar' => '/assets/img/avatar.png',
+          'email' => 'ceshi@163.com',
+          'mobile' => '15960911889',
+          'loginfailure' => 0,
+          'logintime' => NULL,
+          'loginip' => NULL,
+          'createtime' => 1768803071,
+          'updatetime' => 1768803071,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 6,
+          'username' => 'ceshi',
+          'nickname' => 'ceshi',
+          'avatar' => '/assets/img/avatar.png',
+          'email' => 'ceshi@163.com',
+          'mobile' => '15960911889',
+          'loginfailure' => 0,
+          'logintime' => NULL,
+          'loginip' => NULL,
+          'createtime' => 1768803071,
+          'updatetime' => 1768803071,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      3 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 4,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2026-01-19 14:11:30  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 6,
+          'username' => 'ceshi(cid:1)',
+          'nickname' => 'ceshi111',
+          'avatar' => '/assets/img/avatar.png',
+          'email' => 'ceshi@163.com',
+          'mobile' => '15960911889',
+          'loginfailure' => 0,
+          'logintime' => NULL,
+          'loginip' => NULL,
+          'createtime' => 1768803071,
+          'updatetime' => 1768803090,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 6,
+          'username' => 'ceshi',
+          'nickname' => 'ceshi111',
+          'avatar' => '/assets/img/avatar.png',
+          'email' => 'ceshi@163.com',
+          'mobile' => '15960911889',
+          'loginfailure' => 0,
+          'logintime' => NULL,
+          'loginip' => NULL,
+          'createtime' => 1768803071,
+          'updatetime' => 1768803090,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      3 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 4,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2026-01-19 14:11:56  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 6,
+          'username' => 'ceshi(cid:1)',
+          'nickname' => 'ceshi111',
+          'avatar' => '/assets/img/avatar.png',
+          'email' => 'ceshi@163.com',
+          'mobile' => '15960911889',
+          'loginfailure' => 0,
+          'logintime' => NULL,
+          'loginip' => NULL,
+          'createtime' => 1768803071,
+          'updatetime' => 1768803090,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 6,
+          'username' => 'ceshi',
+          'nickname' => 'ceshi111',
+          'avatar' => '/assets/img/avatar.png',
+          'email' => 'ceshi@163.com',
+          'mobile' => '15960911889',
+          'loginfailure' => 0,
+          'logintime' => NULL,
+          'loginip' => NULL,
+          'createtime' => 1768803071,
+          'updatetime' => 1768803090,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      3 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1768179606,
+          'loginip' => '127.0.0.1',
+          'createtime' => 1491635035,
+          'updatetime' => 1768179606,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 4,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2026-01-30 15:29:00  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20260127/508d357f6307d00d9c1a0752c716f787.jpg',
+          'email' => 'admin@admin1.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1769739178,
+          'loginip' => '192.168.31.234',
+          'createtime' => 1491635035,
+          'updatetime' => 1769739178,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20260127/508d357f6307d00d9c1a0752c716f787.jpg',
+          'email' => 'admin@admin1.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1769739178,
+          'loginip' => '192.168.31.234',
+          'createtime' => 1491635035,
+          'updatetime' => 1769739178,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))
+2026-02-01 20:28:54  think\paginator\driver\Bootstrap::__set_state(array(
+   'simple' => false,
+   'items' => 
+  think\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 4,
+          'username' => 'manager(cid:1)',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 4,
+          'username' => 'manager',
+          'nickname' => '仓库管理员',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'manager@lfb.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1734749217,
+          'loginip' => '172.29.163.9',
+          'createtime' => 1491635035,
+          'updatetime' => 1734749217,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      1 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2(cid:2)',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+          'groups' => '6',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 2,
+          'username' => 'admin2',
+          'nickname' => 'Admin2',
+          'avatar' => '/uploads/20241212/2ee416dd718b1b136de75eae318f239f.jpg',
+          'email' => 'admin@admin.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1708498855,
+          'loginip' => '192.168.1.201',
+          'createtime' => NULL,
+          'updatetime' => 1708502916,
+          'status' => 'normal',
+          'cid' => 2,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+      2 => 
+      app\admin\model\Admin::__set_state(array(
+         'autoWriteTimestamp' => 'int',
+         'createTime' => 'createtime',
+         'updateTime' => 'updatetime',
+         'hidden' => 
+        array (
+          0 => 'password',
+          1 => 'salt',
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => NULL,
+         'query' => NULL,
+         'name' => 'Admin',
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\Admin',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'append' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'username' => 'admin(cid:1)',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20260127/508d357f6307d00d9c1a0752c716f787.jpg',
+          'email' => 'admin@admin1.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1769948812,
+          'loginip' => '192.168.31.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1769948812,
+          'status' => 'normal',
+          'cid' => 1,
+          'groups' => '1',
+          'groups_text' => 'Admin group',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'username' => 'admin',
+          'nickname' => 'Admin',
+          'avatar' => '/uploads/20260127/508d357f6307d00d9c1a0752c716f787.jpg',
+          'email' => 'admin@admin1.com',
+          'mobile' => '',
+          'loginfailure' => 0,
+          'logintime' => 1769948812,
+          'loginip' => '192.168.31.106',
+          'createtime' => 1491635035,
+          'updatetime' => 1769948812,
+          'status' => 'normal',
+          'cid' => 1,
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+  )),
+   'currentPage' => 1,
+   'lastPage' => 1,
+   'total' => 3,
+   'listRows' => 10,
+   'hasMore' => false,
+   'options' => 
+  array (
+    'var_page' => 'page',
+    'path' => '/GHKLkFhjsA.php/auth/admin/index',
+    'query' => 
+    array (
+    ),
+    'fragment' => '',
+    'type' => 'bootstrap',
+    'list_rows' => 15,
+  ),
+   'nextItem' => NULL,
+))

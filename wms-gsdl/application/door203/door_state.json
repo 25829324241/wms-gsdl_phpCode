@@ -1,0 +1,11 @@
+{
+  "state": "closed",
+  "state_cn": "关门",
+  "state_code": 0,
+  "last_event": "door_close",
+  "last_event_time": "2026-02-07 16:14:24.173",
+  "event_count": 200,
+  "record_time": "2026-02-07 16:14:24.174",
+  "message": "控制器上报: 门已关门",
+  "status": "success"
+}

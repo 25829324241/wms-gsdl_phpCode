@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'Id'              => '序号',
+    'Name'            => '任务名称',
+    'Task_code'       => '任务编号',
+    'Wh_c_id'         => '关联容器id',
+    'Type'            => '任务类型',
+    'Type 1'          => '入库',
+    'Type 2'          => '出库',
+    'Type 3'          => '理货入库',
+    'Type 4'          => '理货出库',
+    'Type 5'          => '移库',
+    'Type 6'          => '播种墙操作',
+    'Type 7'          => '其他任务',
+    'Status'          => '任务状态',
+    'Status 1'        => '创建',
+    'Set status to 1' => '设为创建',
+    'Status 2'        => '执行中',
+    'Set status to 2' => '设为执行中',
+    'Status 3'        => '执行成功',
+    'Set status to 3' => '设为执行成功',
+    'Status 4'        => '执行失败',
+    'Set status to 4' => '设为执行失败',
+    'Content'         => '任务内容',
+    'Is_retry_switch' => '是否重试',
+    'Retry_id'        => '重试任务id',
+    'Aid'             => '创建人',
+    'Add_time'        => '创建时间',
+    'Cid'             => '渠道id',
+    'Admin.username'  => '用户名'
+];

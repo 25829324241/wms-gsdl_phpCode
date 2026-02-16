@@ -1,0 +1,112 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+   <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-numbering" class="form-control" name="row[numbering]" type="text" value="{$row.numbering|htmlentities}">
+        </div>
+    </div>
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-type" class="form-control selectpicker" name="row[type]">
+                {foreach name="typeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.type"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div> -->
+    
+     <div class="form-group">
+         <label class="control-label col-xs-12 col-sm-2">{:__('Wh_l_id')}:</label>
+         <div class="col-xs-12 col-sm-8">
+             <input id="c-wh_id" data-rule="required" data-source="warehouse_location/index" class="form-control selectpage" name="row[wh_id]" type="text" value="{$row.wh_id|htmlentities}">
+         </div>
+     </div>
+     <div class="form-group">
+         <label class="control-label col-xs-12 col-sm-2">{:__('Wh_a_id')}:</label>
+         <div class="col-xs-12 col-sm-8">
+             <input id="c-wh_a_id" data-rule="required" data-source="warehouse_area/index" class="form-control selectpage" name="row[wh_a_id]" type="text" value="{$row.wh_a_id|htmlentities}">
+         </div>
+     </div>
+     <div class="form-group">
+         <label class="control-label col-xs-12 col-sm-2">{:__('Wh_s_id')}:</label>
+         <div class="col-xs-12 col-sm-8">
+             <input id="c-shelves_id"  data-source="warehouse_shelves/index" class="form-control selectpage" name="row[wh_s_id]" type="text" value="{$row.wh_s_id|htmlentities}">
+         </div>
+     </div>
+  <!--  <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_l_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_l_id" data-rule="required" data-source="warehouse_location/index" class="form-control selectpage" name="row[wh_l_id]" type="text" value="{$row.wh_l_id|htmlentities}">
+        </div>
+    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_l_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_l_numbering" class="form-control" name="row[wh_l_numbering]" type="text" value="{$row.wh_l_numbering|htmlentities}">
+        </div>
+    </div>
+   <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_l_real_location')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_l_real_location" class="form-control" name="row[wh_l_real_location]" type="text" value="{$row.wh_l_real_location|htmlentities}">
+        </div>
+    </div>-->
+   <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('W_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-w_id" data-rule="required" data-source="workbench/index" class="form-control selectpage" name="row[w_id]" type="text" value="{$row.w_id|htmlentities}">
+        </div>
+    </div>-->
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('W_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-w_numbering" class="form-control" name="row[w_numbering]" type="text" value="{$row.w_numbering|htmlentities}">
+        </div>
+    </div> -->
+   <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Aid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-aid" class="form-control" name="row[aid]" type="number" value="{$row.aid|htmlentities}">
+        </div>
+    </div>-->
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[add_time]" type="text" value="{:$row.add_time?datetime($row.add_time):''}">
+        </div>
+    </div> -->
+    <!--<div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Up_aid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-up_aid" class="form-control" name="row[up_aid]" type="number" value="{$row.up_aid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Up_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-up_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[up_time]" type="text" value="{:$row.up_time?datetime($row.up_time):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cid" class="form-control" name="row[cid]" type="number" value="{$row.cid|htmlentities}">
+        </div>
+    </div>-->
+   <!-- <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div> -->
+</form>

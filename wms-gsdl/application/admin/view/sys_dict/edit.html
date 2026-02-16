@@ -1,0 +1,113 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-numbering" data-rule="required" class="form-control" name="row[numbering]" type="text" value="{$row.numbering|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pid')}:</label>
+        <!--<div class="col-xs-12 col-sm-8">
+            <input id="c-pid" data-rule="required" class="form-control" name="row[pid]" type="number" value="{$row.pid|htmlentities}">
+        </div>-->
+        <div class="col-xs-12 col-sm-8">
+            <!--<input id="c-pid" class="form-control" name="row[pid]" type="number" value="{$row.pid|htmlentities}">-->
+            <select id="c-pid" data-rule="required" class="form-control selectpicker" name="row[pid]">
+                {foreach name="parentList" item="vo"}
+                <option   value="{$key}" {in name="key" value="$row.pid"}selected{/in}>{$vo.name}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Parent_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-parent_numbering" class="form-control" name="row[parent_numbering]" type="text" value="{$row.parent_numbering|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" class="form-control" name="row[type]" type="number" value="{$row.type|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Identify')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-identify" class="form-control" name="row[identify]" type="text" value="{$row.identify|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sort')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sort" data-rule="required" class="form-control" name="row[sort]" type="number" value="{$row.sort|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_default')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-is_default" data-rule="required" class="form-control selectpicker" name="row[is_default]">
+                {foreach name="isDefaultList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.is_default"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_enable')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-is_enable" data-rule="required" class="form-control selectpicker" name="row[is_enable]">
+                {foreach name="isEnableList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.is_enable"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_aid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_aid" class="form-control" name="row[add_aid]" type="number" value="{$row.add_aid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[add_time]" type="text" value="{:$row.add_time?datetime($row.add_time):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Up_aid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-up_aid" class="form-control" name="row[up_aid]" type="text" value="{$row.up_aid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Up_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-up_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[up_time]" type="text" value="{:$row.up_time?datetime($row.up_time):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cid" class="form-control" name="row[cid]" type="number" value="{$row.cid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

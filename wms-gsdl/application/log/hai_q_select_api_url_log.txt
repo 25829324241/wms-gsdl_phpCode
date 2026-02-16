@@ -1,0 +1,1374 @@
+2024-12-13 16:32:36  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734078756396',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'toLocationCode' => 'CS01-01-05-04',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-13 16:34:42  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734078882214',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-04',
+          'locationCode' => 'HAI-006-027-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-13 16:41:13  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734079273305',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-04',
+          'locationCode' => 'HAI-006-004-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-13 16:42:07  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734079327147',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-04',
+          'locationCode' => 'HAI-005-043-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-13 16:47:32  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734079652149',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-01',
+          'locationCode' => 'HAI-003-002-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-13 16:50:17  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734079817180',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-01',
+          'locationCode' => 'HAI-006-043-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-13 16:53:05  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_173407998522',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-01',
+          'locationCode' => 'HAI-002-036-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-16 11:20:44  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734319244500',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-04',
+          'locationCode' => 'HAI-002-013-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-16 12:07:15  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734322035869',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-04',
+          'locationCode' => 'HAI-005-026-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-16 17:59:55  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_17343431957',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'toLocationCode' => 'CS01-01-05-04',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-16 18:01:26  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734343286334',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'toLocationCode' => 'CS01-01-05-04',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-18 15:44:31  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734507871400',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-04',
+          'locationCode' => 'HAI-002-013-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-18 15:51:57  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734508317414',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-05-01',
+          'locationCode' => 'HAI-002-036-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:04:41  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734663881282',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'toLocationCode' => 'CS01-01-01-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:06:08  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734663968873',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-01-02',
+          'locationCode' => 'HAI-003-002-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:08:00  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734664080173',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-01-02',
+          'locationCode' => 'HAI-003-002-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:09:35  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734664175962',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-01-02',
+          'locationCode' => 'LT_CACHE_SHELF_ENTRY:POINT:13012:13103',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:12:11  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_173466433143',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-01-02',
+          'locationCode' => 'CS01-01-01-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:14:58  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734664498324',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-01-02',
+          'locationCode' => 'CS01-01-01-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:19:16  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734664756397',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-01',
+          'locationCode' => 'HAI-004-001-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:37:30  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734665850899',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'LT_CACHE_SHELF_ENTRY:POINT:13012:13103',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:38:36  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734665916713',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'LT_CHARGE:POINT:47627:16252',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:39:15  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734665955857',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 11:39:39  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_173466597969',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-20 12:20:57  array (
+  'data' => 
+  array (
+  ),
+  'url' => '/robot/query',
+)
+2024-12-20 12:22:52  array (
+  'data' => 
+  array (
+  ),
+  'url' => '/robot/query',
+)
+2024-12-20 12:22:52  array (
+  'data' => 
+  array (
+    'locationCodes' => 
+    array (
+    ),
+    'containerCode' => '',
+    'locationTypeCodes' => 
+    array (
+    ),
+  ),
+  'url' => '/location/query',
+)
+2024-12-20 12:22:54  array (
+  'data' => 
+  array (
+    'stationCodes' => 
+    array (
+    ),
+    'stationModelCodes' => 
+    array (
+    ),
+  ),
+  'url' => '/station/query',
+)
+2024-12-21 10:52:30  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734749550203',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'toLocationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:05:33  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734750333937',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-003-001-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:07:38  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734750458356',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-003-002-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:08:56  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734750536218',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-003-002-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:10:19  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734750619858',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-003-002-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:11:54  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734750714849',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'CS01-01-04-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:20:22  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734751222127',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'CS01-01-04-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:21:49  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734751309767',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-001-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:54:45  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734753285623',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'toLocationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:58:40  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734753520281',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'CS01-01-06-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 11:59:19  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734753559356',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-001-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:14:33  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_173475447338',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-001-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:31:01  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734755461305',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-001-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:45:36  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756336613',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:45:58  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756358731',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'LT_CACHE_SHELF_ENTRY:POINT:14270:19653',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:46:19  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756379557',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-03',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:53:02  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734756782686',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'toLocationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:54:16  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756856656',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-001-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:55:41  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756941631',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:56:00  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756960186',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-04',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 12:56:04  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734756964334',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 13:01:30  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734757290602',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'toLocationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 13:04:26  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734757466194',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000002',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-001-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 13:08:15  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734757695818',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'toLocationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 13:09:31  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734757771786',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 13:15:02  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_outbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_outbound_1734758102867',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'toLocationCode' => 'CS01-01-06-02',
+        ),
+      ),
+    ),
+  ),
+  'url' => '/task/create',
+)
+2024-12-21 13:16:08  array (
+  'data' => 
+  array (
+    'taskType' => 'tote_inbound',
+    'businessType' => '',
+    'taskGroupCode' => '',
+    'groupPriority' => '0',
+    'robotCode' => '',
+    'tasks' => 
+    array (
+      0 => 
+      array (
+        'taskCode' => 'task_tote_inbound_1734758168477',
+        'taskDescribe' => 
+        array (
+          'containerCode' => 'A000000001',
+          'containerType' => 'CT_KUBOT_STANDARD',
+          'storageTag' => '',
+          'fromLocationCode' => 'CS01-01-06-02',
+          'locationCode' => 'HAI-004-002-01',
+        ),
+      ),
+    ),
+    'autoCreateContainer' => 'true',
+  ),
+  'url' => '/task/create',
+)

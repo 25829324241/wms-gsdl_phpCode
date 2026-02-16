@@ -1,0 +1,5259 @@
+
+2026-01-15 09:56:28  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768442188882',
+      1 => 'task_tote_inbound_agv_shelf_1768442188912',
+    ),
+    'task_ids' => 
+    array (
+      0 => '158',
+      1 => '159',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => '00000002',
+      1 => '00000003',
+    ),
+  ),
+)
+2026-01-15 09:56:28  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-15 10:04:07  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768442647308',
+      1 => 'task_tote_inbound_agv_shelf_1768442647334',
+    ),
+    'task_ids' => 
+    array (
+      0 => '160',
+      1 => '161',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01021',
+      1 => 'P000009B01031',
+    ),
+  ),
+)
+2026-01-15 10:04:07  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-15 20:06:19  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768478779825',
+      1 => 'task_tote_inbound_agv_shelf_1768478779837',
+    ),
+    'task_ids' => 
+    array (
+      0 => '1',
+      1 => '2',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B02011',
+      1 => 'P000009B02021',
+    ),
+  ),
+)
+2026-01-15 20:06:19  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-16 10:18:20  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768529900324',
+      1 => 'task_tote_inbound_agv_shelf_1768529900335',
+    ),
+    'task_ids' => 
+    array (
+      0 => '9',
+      1 => '10',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 12,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01021',
+      1 => 'P000009B01031',
+      2 => 'P000009B02011',
+      3 => 'P000009B02031',
+      4 => 'P000009B03011',
+      5 => 'P000009B03021',
+    ),
+  ),
+)
+2026-01-16 11:31:13  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768534273853',
+      1 => 'task_tote_inbound_agv_shelf_1768534273864',
+    ),
+    'task_ids' => 
+    array (
+      0 => '11',
+      1 => '12',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01021',
+      1 => 'P000009B01031',
+    ),
+  ),
+)
+2026-01-16 11:43:27  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768535007315',
+      1 => 'task_tote_inbound_agv_shelf_1768535007319',
+    ),
+    'task_ids' => 
+    array (
+      0 => '13',
+      1 => '14',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01021',
+      1 => 'P000009B01031',
+    ),
+  ),
+)
+2026-01-16 11:43:27  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-16 14:02:04  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768543324561',
+      1 => 'task_tote_inbound_agv_shelf_1768543324565',
+    ),
+    'task_ids' => 
+    array (
+      0 => '18',
+      1 => '19',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01021',
+      1 => 'P000009B01031',
+      2 => 'P000009B02011',
+    ),
+  ),
+)
+2026-01-16 14:02:04  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-16 14:34:09  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768545249892',
+      1 => 'task_tote_inbound_agv_shelf_1768545249898',
+    ),
+    'task_ids' => 
+    array (
+      0 => '20',
+      1 => '21',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01012',
+      1 => 'P000009B01022',
+      2 => 'P000009B02012',
+    ),
+  ),
+)
+2026-01-16 14:34:09  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-16 14:50:36  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1768546236436',
+      1 => 'task_tote_inbound_agv_shelf_1768546236441',
+    ),
+    'task_ids' => 
+    array (
+      0 => '22',
+      1 => '23',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01012',
+      1 => 'P000009B02022',
+      2 => 'P000009B02032',
+    ),
+  ),
+)
+2026-01-16 14:50:36  array (
+  'code' => 'SUCCESS',
+  'data' => 'agv两个来',
+)
+2026-01-22 16:16:08  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769069767561',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-22 16:21:46  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769070105672',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-22 16:23:50  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769070230404',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-25 17:30:35  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769333435954',
+      1 => 'task_tote_inbound_agv_shelf_1769333435957',
+      2 => 'task_tote_inbound_agv_shelf_1769333435958',
+    ),
+    'task_ids' => 
+    array (
+      0 => '383',
+      1 => '384',
+      2 => '385',
+    ),
+    'shelf_number' => '000008',
+    'add_arr' => 36,
+    'to_location_list' => 
+    array (
+      0 => 'P000008B03012',
+      1 => 'P000008B03022',
+      2 => 'P000008B03032',
+      3 => 'P000008B04012',
+      4 => 'P000008B04022',
+      5 => 'P000008B04032',
+      6 => 'P000004B01011',
+      7 => 'P000004B01021',
+      8 => 'P000004B01031',
+      9 => 'P000004B02011',
+      10 => 'P000004B02021',
+      11 => 'P000004B02031',
+      12 => 'P000004B03011',
+      13 => 'P000004B03021',
+      14 => 'P000004B03031',
+      15 => 'P000004B04011',
+      16 => 'P000004B04021',
+      17 => 'P000004B04031',
+    ),
+  ),
+)
+2026-01-25 17:30:36  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000008',
+          'siteCode' => '0006996XX0015030',
+          'siteName' => '0006996XX0015030',
+          'x' => '6996.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769333435957',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769333435954',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-25 17:56:25  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769334985888',
+      1 => 'task_tote_inbound_agv_shelf_1769334985892',
+    ),
+    'task_ids' => 
+    array (
+      0 => '386',
+      1 => '387',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B01012',
+      1 => 'P000004B01022',
+      2 => 'P000004B01032',
+      3 => 'P000004B02012',
+      4 => 'P000004B02022',
+      5 => 'P000004B02032',
+      6 => 'P000004B03012',
+      7 => 'P000004B03022',
+      8 => 'P000004B03032',
+      9 => 'P000004B04012',
+      10 => 'P000004B04022',
+      11 => 'P000004B04032',
+    ),
+  ),
+)
+2026-01-25 17:56:26  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769334985892',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769334985888',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-27 17:00:50  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769504450610',
+      1 => 'task_tote_inbound_agv_shelf_1769504450613',
+      2 => 'task_tote_inbound_agv_shelf_1769504450616',
+    ),
+    'task_ids' => 
+    array (
+      0 => '398',
+      1 => '399',
+      2 => '400',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 36,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B01011',
+      1 => 'P000004B01021',
+      2 => 'P000004B01031',
+      3 => 'P000004B02011',
+      4 => 'P000004B02021',
+      5 => 'P000004B02031',
+      6 => 'P000004B03011',
+      7 => 'P000004B03021',
+      8 => 'P000004B03031',
+      9 => 'P000004B04011',
+      10 => 'P000004B04021',
+      11 => 'P000004B04031',
+      12 => 'P000009B01011',
+      13 => 'P000009B01021',
+      14 => 'P000009B01031',
+      15 => 'P000009B02011',
+      16 => 'P000009B02021',
+      17 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-27 17:00:51  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769504450613',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769504450610',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-28 09:12:33  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769562753564',
+      1 => 'task_tote_inbound_agv_shelf_1769562753566',
+      2 => 'task_tote_inbound_agv_shelf_1769562753568',
+    ),
+    'task_ids' => 
+    array (
+      0 => '401',
+      1 => '402',
+      2 => '403',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 14,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02022',
+      1 => 'P000009B01011',
+      2 => 'P000009B01021',
+      3 => 'P000009B01031',
+      4 => 'P000009B02011',
+      5 => 'P000009B02021',
+      6 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-28 09:12:34  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769562753566',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769562753564',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-28 09:43:57  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769564637588',
+      1 => 'task_tote_inbound_agv_shelf_1769564637592',
+      2 => 'task_tote_inbound_agv_shelf_1769564637594',
+    ),
+    'task_ids' => 
+    array (
+      0 => '404',
+      1 => '405',
+      2 => '406',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 14,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02022',
+      1 => 'P000009B01011',
+      2 => 'P000009B01021',
+      3 => 'P000009B01031',
+      4 => 'P000009B02011',
+      5 => 'P000009B02021',
+      6 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-28 09:43:58  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769564637592',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769564637588',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-28 10:06:43  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769566003897',
+      1 => 'task_tote_inbound_agv_shelf_1769566003899',
+      2 => 'task_tote_inbound_agv_shelf_1769566003901',
+    ),
+    'task_ids' => 
+    array (
+      0 => '407',
+      1 => '408',
+      2 => '409',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 14,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02022',
+      1 => 'P000009B01011',
+      2 => 'P000009B01021',
+      3 => 'P000009B01031',
+      4 => 'P000009B02011',
+      5 => 'P000009B02021',
+      6 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-28 10:06:44  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769566003899',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769566003897',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-28 10:19:20  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769566760984',
+      1 => 'task_tote_inbound_agv_shelf_1769566760987',
+      2 => 'task_tote_inbound_agv_shelf_1769566760989',
+    ),
+    'task_ids' => 
+    array (
+      0 => '410',
+      1 => '411',
+      2 => '412',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 14,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02022',
+      1 => 'P000009B01011',
+      2 => 'P000009B01021',
+      3 => 'P000009B01031',
+      4 => 'P000009B02021',
+      5 => 'P000009B02031',
+      6 => 'P000009B03011',
+    ),
+  ),
+)
+2026-01-28 10:19:21  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769566760987',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769566760984',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-28 11:00:37  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769569237170',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-28 11:03:55  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769569435565',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-28 11:05:08  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769569508961',
+      1 => 'task_tote_inbound_agv_shelf_1769569508964',
+    ),
+    'task_ids' => 
+    array (
+      0 => '417',
+      1 => '418',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 12,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B03021',
+      1 => 'P000009B03031',
+      2 => 'P000009B04011',
+      3 => 'P000009B04021',
+      4 => 'P000009B04031',
+      5 => 'P000009B01012',
+    ),
+  ),
+)
+2026-01-28 11:05:09  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769569508964',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769569508961',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-28 14:08:15  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769580495375',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-28 14:09:11  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769580551410',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-28 15:49:11  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769586551378',
+      1 => 'task_tote_inbound_agv_shelf_1769586551389',
+      2 => 'task_tote_inbound_agv_shelf_1769586551391',
+      3 => 'task_tote_inbound_agv_shelf_1769586551392',
+    ),
+    'task_ids' => 
+    array (
+      0 => '426',
+      1 => '427',
+      2 => '428',
+      3 => '429',
+    ),
+    'shelf_number' => '000003',
+    'add_arr' => 12,
+    'to_location_list' => 
+    array (
+      0 => 'P000003B04022',
+      1 => 'P000004B01032',
+      2 => 'P000004B02022',
+      3 => 'P000004B03012',
+      4 => 'P000009B01031',
+      5 => 'P000009B02011',
+    ),
+  ),
+)
+2026-01-28 15:49:12  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000003',
+          'siteCode' => '0011734XX0017040',
+          'siteName' => '0011734XX0017040',
+          'x' => '11734.0',
+          'y' => '17040.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769586551389',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769586551378',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-29 10:30:24  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769653824141',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-29 13:43:32  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769665411955',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-29 13:59:54  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769666394156',
+      1 => 'task_tote_inbound_agv_shelf_1769666394160',
+    ),
+    'task_ids' => 
+    array (
+      0 => '435',
+      1 => '436',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B02011',
+      1 => 'P000009B02021',
+      2 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-29 13:59:55  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769666394160',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769666394156',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-29 15:49:07  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769672947636',
+      1 => 'task_tote_inbound_agv_shelf_1769672947648',
+    ),
+    'task_ids' => 
+    array (
+      0 => '437',
+      1 => '438',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B04031',
+      1 => 'P000009B01022',
+      2 => 'P000009B01032',
+    ),
+  ),
+)
+2026-01-29 15:49:08  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769672947648',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769672947636',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-30 11:05:47  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_176974234744',
+      1 => 'task_tote_inbound_agv_shelf_176974234748',
+    ),
+    'task_ids' => 
+    array (
+      0 => '441',
+      1 => '442',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B02021',
+      1 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-30 11:05:47  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_176974234748',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_176974234744',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-01-30 11:29:26  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1769743766304',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-01-30 11:47:49  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769744869512',
+      1 => 'task_tote_inbound_agv_shelf_1769744869515',
+      2 => 'task_tote_inbound_agv_shelf_1769744869517',
+    ),
+    'task_ids' => 
+    array (
+      0 => '448',
+      1 => '449',
+      2 => '450',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 8,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02012',
+      1 => 'P000004B03022',
+      2 => 'P000009B02011',
+      3 => 'P000009B02031',
+    ),
+  ),
+)
+2026-01-30 11:47:50  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769744869515',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769744869512',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-01 20:45:30  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_176994993031',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-01 21:21:38  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1769952098965',
+      1 => 'task_tote_inbound_agv_shelf_1769952098970',
+    ),
+    'task_ids' => 
+    array (
+      0 => '454',
+      1 => '455',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B02012',
+    ),
+  ),
+)
+2026-02-01 21:21:39  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1769952098970',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1769952098965',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-02 10:56:12  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770000971808',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-02 10:58:02  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770001082478',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-02 11:02:54  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770001373910',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-02 14:38:35  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770014315323',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-02 15:04:05  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_177001584577',
+      1 => 'task_tote_inbound_agv_shelf_177001584582',
+      2 => 'task_tote_inbound_agv_shelf_1770015845103',
+    ),
+    'task_ids' => 
+    array (
+      0 => '469',
+      1 => '470',
+      2 => '471',
+    ),
+    'shelf_number' => '000005',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000005B03032',
+      1 => 'P000009B02021',
+    ),
+  ),
+)
+2026-02-02 15:04:05  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000005',
+          'siteCode' => '0006996XX0021060',
+          'siteName' => '0006996XX0021060',
+          'x' => '6996.0',
+          'y' => '21060.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_177001584582',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_177001584577',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-02 15:17:16  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770016636113',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-02 15:24:42  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770017081872',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-02 15:38:42  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770017922314',
+      1 => 'task_tote_inbound_agv_shelf_1770017922318',
+    ),
+    'task_ids' => 
+    array (
+      0 => '478',
+      1 => '479',
+    ),
+    'shelf_number' => '000002',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000002B04031',
+    ),
+  ),
+)
+2026-02-02 15:38:43  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000002',
+          'siteCode' => '0011734XX0019050',
+          'siteName' => '0011734XX0019050',
+          'x' => '11734.0',
+          'y' => '19050.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770017922318',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770017922314',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-03 09:50:28  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770083428273',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-04 15:14:05  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770189245448',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-04 15:15:23  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770189322668',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-04 18:29:45  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770200985873',
+      1 => 'task_tote_inbound_agv_shelf_1770200985876',
+    ),
+    'task_ids' => 
+    array (
+      0 => '495',
+      1 => '496',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 18,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+      1 => 'P000009B01021',
+      2 => 'P000009B01031',
+      3 => 'P000009B02011',
+      4 => 'P000009B02021',
+      5 => 'P000009B02031',
+      6 => 'P000009B03011',
+      7 => 'P000009B03021',
+      8 => 'P000009B03031',
+    ),
+  ),
+)
+2026-02-04 18:29:46  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770200985876',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770200985873',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 10:10:16  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770257416350',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 10:13:56  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770257635884',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 10:17:33  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770257853370',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 10:36:33  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770258993352',
+      1 => 'task_tote_inbound_agv_shelf_1770258993355',
+    ),
+    'task_ids' => 
+    array (
+      0 => '505',
+      1 => '506',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-05 10:36:34  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770258993355',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770258993352',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 10:42:25  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770259345437',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 10:53:03  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770259983691',
+      1 => 'task_tote_inbound_agv_shelf_1770259983694',
+    ),
+    'task_ids' => 
+    array (
+      0 => '511',
+      1 => '512',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-05 10:53:04  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770259983694',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770259983691',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 13:23:41  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770269021376',
+      1 => 'task_tote_inbound_agv_shelf_1770269021378',
+    ),
+    'task_ids' => 
+    array (
+      0 => '515',
+      1 => '516',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 30,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+      1 => 'P000009B01021',
+      2 => 'P000009B01031',
+      3 => 'P000009B02011',
+      4 => 'P000009B02021',
+      5 => 'P000009B02031',
+      6 => 'P000009B03011',
+      7 => 'P000009B03021',
+      8 => 'P000009B03031',
+      9 => 'P000009B04011',
+      10 => 'P000009B04021',
+      11 => 'P000009B04031',
+      12 => 'P000009B01012',
+      13 => 'P000009B01022',
+      14 => 'P000009B01032',
+    ),
+  ),
+)
+2026-02-05 13:23:42  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770269021378',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770269021376',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 14:32:12  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_177027313231',
+      1 => 'task_tote_inbound_agv_shelf_177027313233',
+    ),
+    'task_ids' => 
+    array (
+      0 => '519',
+      1 => '520',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-05 14:32:12  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_177027313233',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_177027313231',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 14:39:46  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770273586818',
+      1 => 'task_tote_inbound_agv_shelf_1770273586822',
+    ),
+    'task_ids' => 
+    array (
+      0 => '523',
+      1 => '524',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01031',
+      1 => 'P000009B03011',
+      2 => 'P000009B03021',
+    ),
+  ),
+)
+2026-02-05 14:39:47  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770273586822',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770273586818',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 14:55:29  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770274529579',
+      1 => 'task_tote_inbound_agv_shelf_1770274529583',
+    ),
+    'task_ids' => 
+    array (
+      0 => '525',
+      1 => '526',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 8,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B03031',
+      1 => 'P000009B04011',
+      2 => 'P000009B04021',
+      3 => 'P000009B04031',
+    ),
+  ),
+)
+2026-02-05 14:55:30  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770274529583',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770274529579',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 15:06:44  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770275204113',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 16:16:08  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770279368472',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 16:28:00  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770280080500',
+      1 => 'task_tote_inbound_agv_shelf_1770280080503',
+    ),
+    'task_ids' => 
+    array (
+      0 => '533',
+      1 => '534',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-05 16:28:01  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770280080503',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770280080500',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 18:03:22  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770285802892',
+      1 => 'task_tote_inbound_agv_shelf_1770285802897',
+      2 => 'task_tote_inbound_agv_shelf_1770285802901',
+    ),
+    'task_ids' => 
+    array (
+      0 => '537',
+      1 => '538',
+      2 => '539',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B02012',
+      1 => 'P000009B02022',
+      2 => 'P000009B02032',
+      3 => 'P000009B03012',
+      4 => 'P000009B03022',
+      5 => 'P000009B03032',
+      6 => 'P000009B04012',
+      7 => 'P000009B04022',
+      8 => 'P000009B04032',
+      9 => 'P000003B01012',
+      10 => 'P000003B01022',
+      11 => 'P000003B01032',
+    ),
+  ),
+)
+2026-02-05 18:03:23  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770285802897',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770285802892',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 20:24:42  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770294282914',
+      1 => 'task_tote_inbound_agv_shelf_1770294282917',
+    ),
+    'task_ids' => 
+    array (
+      0 => '542',
+      1 => '543',
+    ),
+    'shelf_number' => '000003',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000003B01011',
+      1 => 'P000003B01021',
+      2 => 'P000003B01031',
+      3 => 'P000003B02011',
+      4 => 'P000003B02021',
+      5 => 'P000003B02031',
+      6 => 'P000003B03011',
+      7 => 'P000003B03021',
+      8 => 'P000003B03031',
+      9 => 'P000003B04011',
+      10 => 'P000003B04021',
+      11 => 'P000003B04031',
+    ),
+  ),
+)
+2026-02-05 20:24:43  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000003',
+          'siteCode' => '0011734XX0017040',
+          'siteName' => '0011734XX0017040',
+          'x' => '11734.0',
+          'y' => '17040.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770294282917',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770294282914',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 21:15:04  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770297304225',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-05 21:21:57  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_17702977175',
+      1 => 'task_tote_inbound_agv_shelf_17702977179',
+      2 => 'task_tote_inbound_agv_shelf_177029771712',
+    ),
+    'task_ids' => 
+    array (
+      0 => '548',
+      1 => '549',
+      2 => '550',
+    ),
+    'shelf_number' => '000003',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000003B02012',
+      1 => 'P000003B02022',
+      2 => 'P000003B02032',
+      3 => 'P000003B03012',
+      4 => 'P000003B03022',
+      5 => 'P000003B03032',
+      6 => 'P000003B04012',
+      7 => 'P000003B04022',
+      8 => 'P000003B04032',
+      9 => 'P000002B01011',
+      10 => 'P000002B01021',
+      11 => 'P000002B01031',
+    ),
+  ),
+)
+2026-02-05 21:21:57  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000003',
+          'siteCode' => '0011734XX0017040',
+          'siteName' => '0011734XX0017040',
+          'x' => '11734.0',
+          'y' => '17040.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_17702977179',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_17702977175',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 22:07:58  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770300478802',
+      1 => 'task_tote_inbound_agv_shelf_1770300478806',
+    ),
+    'task_ids' => 
+    array (
+      0 => '553',
+      1 => '554',
+    ),
+    'shelf_number' => '000002',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000002B02011',
+      1 => 'P000002B02021',
+      2 => 'P000002B02031',
+      3 => 'P000002B03011',
+      4 => 'P000002B03021',
+      5 => 'P000002B03031',
+      6 => 'P000002B04011',
+      7 => 'P000002B04021',
+      8 => 'P000002B04031',
+      9 => 'P000002B01012',
+      10 => 'P000002B01022',
+      11 => 'P000002B01032',
+    ),
+  ),
+)
+2026-02-05 22:07:59  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000002',
+          'siteCode' => '0011734XX0019050',
+          'siteName' => '0011734XX0019050',
+          'x' => '11734.0',
+          'y' => '19050.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770300478806',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770300478802',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 22:49:36  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770302976815',
+      1 => 'task_tote_inbound_agv_shelf_1770302976818',
+      2 => 'task_tote_inbound_agv_shelf_1770302976820',
+    ),
+    'task_ids' => 
+    array (
+      0 => '557',
+      1 => '558',
+      2 => '559',
+    ),
+    'shelf_number' => '000002',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000002B02012',
+      1 => 'P000002B02022',
+      2 => 'P000002B02032',
+      3 => 'P000002B03012',
+      4 => 'P000002B03022',
+      5 => 'P000002B03032',
+      6 => 'P000002B04012',
+      7 => 'P000002B04022',
+      8 => 'P000002B04032',
+      9 => 'P000001B01012',
+      10 => 'P000001B01022',
+      11 => 'P000001B01032',
+    ),
+  ),
+)
+2026-02-05 22:49:37  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000002',
+          'siteCode' => '0011734XX0019050',
+          'siteName' => '0011734XX0019050',
+          'x' => '11734.0',
+          'y' => '19050.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770302976818',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770302976815',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-05 23:47:47  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770306467738',
+      1 => 'task_tote_inbound_agv_shelf_1770306467742',
+    ),
+    'task_ids' => 
+    array (
+      0 => '562',
+      1 => '563',
+    ),
+    'shelf_number' => '000001',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000001B01011',
+      1 => 'P000001B01021',
+      2 => 'P000001B01031',
+      3 => 'P000001B02011',
+      4 => 'P000001B02021',
+      5 => 'P000001B02031',
+      6 => 'P000001B03011',
+      7 => 'P000001B03021',
+      8 => 'P000001B03031',
+      9 => 'P000001B04011',
+      10 => 'P000001B04021',
+      11 => 'P000001B04031',
+    ),
+  ),
+)
+2026-02-05 23:47:48  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000001',
+          'siteCode' => '0011734XX0021060',
+          'siteName' => '0011734XX0021060',
+          'x' => '11734.0',
+          'y' => '21060.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770306467742',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770306467738',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-06 07:50:26  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_177033542641',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-06 08:54:29  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770339268886',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-06 10:01:24  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770343284139',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-06 10:02:46  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770343365983',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-06 10:09:26  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770343766502',
+      1 => 'task_tote_inbound_agv_shelf_1770343766505',
+    ),
+    'task_ids' => 
+    array (
+      0 => '573',
+      1 => '574',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-06 10:09:27  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'Err_DataValidationFailed',
+      'message' => '流程执行异常：
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "tas_task_chain_pkey"
+  Detail: Key (task_chain_code)=(task_tote_inbound_agv_shelf_1770343766505) already exists.
+### The error may exist in URL [jar:file:/workdir/java_home/lib/tas-module-service-4.3.2-SNAPSHOT.jar!/mapper/pg/task/task.chain.map.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO tas_task_chain         (                task_chain_code,   business_key,   pi_code,   task_chain_type,   process_def_id,   task_group_code,   group_seq,   seq_task,   seq_id,   amr_code,   map_code,   task_status,   max_time,   priority,   task_gen_param,   task_cancel_param,         cancel_reason,   cancel_report_config,      source_type,   send_task_time,   task_start_time,   load_item_time,   end_time,   create_time,   update_time,      create_user,      update_user,      carrier_code,   strategy_value,   data_label,      start_route_type,      start_route_code,      end_route_type,      end_route_code,      trace_id,      cobot               )         VALUES         (             ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,         ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,   ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?            )
+### Cause: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "tas_task_chain_pkey"
+  Detail: Key (task_chain_code)=(task_tote_inbound_agv_shelf_1770343766505) already exists.
+; ERROR: duplicate key value violates unique constraint "tas_task_chain_pkey"
+  Detail: Key (task_chain_code)=(task_tote_inbound_agv_shelf_1770343766505) already exists.',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770343766505',
+      ),
+      'errorCode' => '99',
+      'success' => false,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770343766502',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-06 11:11:23  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770347483848',
+      1 => 'task_tote_inbound_agv_shelf_1770347483851',
+      2 => 'task_tote_inbound_agv_shelf_1770347483852',
+    ),
+    'task_ids' => 
+    array (
+      0 => '577',
+      1 => '578',
+      2 => '579',
+    ),
+    'shelf_number' => '000001',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000001B02012',
+      1 => 'P000001B02022',
+      2 => 'P000001B02032',
+      3 => 'P000001B03012',
+      4 => 'P000001B03022',
+      5 => 'P000001B03032',
+      6 => 'P000001B04012',
+      7 => 'P000001B04022',
+      8 => 'P000001B04032',
+      9 => 'P000004B01011',
+      10 => 'P000004B01021',
+      11 => 'P000004B01031',
+    ),
+  ),
+)
+2026-02-06 11:11:24  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000001',
+          'siteCode' => '0011734XX0021060',
+          'siteName' => '0011734XX0021060',
+          'x' => '11734.0',
+          'y' => '21060.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770347483851',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770347483848',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-06 14:29:00  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770359340542',
+      1 => 'task_tote_inbound_agv_shelf_1770359340550',
+    ),
+    'task_ids' => 
+    array (
+      0 => '582',
+      1 => '583',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02011',
+      1 => 'P000004B02021',
+    ),
+  ),
+)
+2026-02-06 14:29:01  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770359340550',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770359340542',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-06 14:35:38  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770359738961',
+      1 => 'task_tote_inbound_agv_shelf_1770359738965',
+    ),
+    'task_ids' => 
+    array (
+      0 => '584',
+      1 => '585',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 20,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02031',
+      1 => 'P000004B03011',
+      2 => 'P000004B03021',
+      3 => 'P000004B03031',
+      4 => 'P000004B04011',
+      5 => 'P000004B04021',
+      6 => 'P000004B04031',
+      7 => 'P000004B01012',
+      8 => 'P000004B01022',
+      9 => 'P000004B01032',
+    ),
+  ),
+)
+2026-02-06 14:35:39  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770359738965',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770359738961',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-06 17:23:01  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770369781788',
+      1 => 'task_tote_inbound_agv_shelf_1770369781790',
+    ),
+    'task_ids' => 
+    array (
+      0 => '590',
+      1 => '591',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 30,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B01011',
+      1 => 'P000004B01021',
+      2 => 'P000004B01031',
+      3 => 'P000004B02011',
+      4 => 'P000004B02021',
+      5 => 'P000004B02031',
+      6 => 'P000004B03011',
+      7 => 'P000004B03021',
+      8 => 'P000004B03031',
+      9 => 'P000004B04011',
+      10 => 'P000004B04021',
+      11 => 'P000004B04031',
+      12 => 'P000004B01012',
+      13 => 'P000004B01022',
+      14 => 'P000004B01032',
+    ),
+  ),
+)
+2026-02-06 17:23:02  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770369781790',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770369781788',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-06 20:42:31  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770381751255',
+      1 => 'task_tote_inbound_agv_shelf_1770381751259',
+    ),
+    'task_ids' => 
+    array (
+      0 => '605',
+      1 => '606',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 6,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02011',
+      1 => 'P000004B02021',
+      2 => 'P000004B01032',
+    ),
+  ),
+)
+2026-02-06 20:42:32  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770381751259',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770381751255',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 10:05:47  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770429947558',
+      1 => 'task_tote_inbound_agv_shelf_1770429947566',
+    ),
+    'task_ids' => 
+    array (
+      0 => '609',
+      1 => '610',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 30,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B01011',
+      1 => 'P000004B01021',
+      2 => 'P000004B01031',
+      3 => 'P000004B02011',
+      4 => 'P000004B02021',
+      5 => 'P000004B02031',
+      6 => 'P000004B03011',
+      7 => 'P000004B03021',
+      8 => 'P000004B03031',
+      9 => 'P000004B04011',
+      10 => 'P000004B04021',
+      11 => 'P000004B04031',
+      12 => 'P000004B01012',
+      13 => 'P000004B01022',
+      14 => 'P000004B01032',
+    ),
+  ),
+)
+2026-02-07 10:05:48  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770429947566',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770429947558',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 10:59:31  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770433171127',
+      1 => 'task_tote_inbound_agv_shelf_1770433171131',
+      2 => 'task_tote_inbound_agv_shelf_1770433171133',
+    ),
+    'task_ids' => 
+    array (
+      0 => '613',
+      1 => '614',
+      2 => '615',
+    ),
+    'shelf_number' => '000004',
+    'add_arr' => 26,
+    'to_location_list' => 
+    array (
+      0 => 'P000004B02012',
+      1 => 'P000004B02022',
+      2 => 'P000004B02032',
+      3 => 'P000004B03012',
+      4 => 'P000004B03022',
+      5 => 'P000004B03032',
+      6 => 'P000004B04012',
+      7 => 'P000004B04022',
+      8 => 'P000004B04032',
+      9 => 'P000005B01011',
+      10 => 'P000005B01021',
+      11 => 'P000005B01031',
+      12 => 'P000005B02011',
+    ),
+  ),
+)
+2026-02-07 10:59:31  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000004',
+          'siteCode' => '0006996XX0023070',
+          'siteName' => '0006996XX0023070',
+          'x' => '6996.0',
+          'y' => '23070.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770433171131',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770433171127',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 11:38:56  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770435536665',
+      1 => 'task_tote_inbound_agv_shelf_1770435536667',
+    ),
+    'task_ids' => 
+    array (
+      0 => '618',
+      1 => '619',
+    ),
+    'shelf_number' => '000005',
+    'add_arr' => 22,
+    'to_location_list' => 
+    array (
+      0 => 'P000005B02021',
+      1 => 'P000005B02031',
+      2 => 'P000005B03011',
+      3 => 'P000005B03021',
+      4 => 'P000005B03031',
+      5 => 'P000005B04011',
+      6 => 'P000005B04021',
+      7 => 'P000005B04031',
+      8 => 'P000005B01012',
+      9 => 'P000005B01022',
+      10 => 'P000005B01032',
+    ),
+  ),
+)
+2026-02-07 11:38:57  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000005',
+          'siteCode' => '0006996XX0021060',
+          'siteName' => '0006996XX0021060',
+          'x' => '6996.0',
+          'y' => '21060.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770435536667',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770435536665',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 14:17:45  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_177044506540',
+      1 => 'task_tote_inbound_agv_shelf_177044506543',
+      2 => 'task_tote_inbound_agv_shelf_177044506546',
+    ),
+    'task_ids' => 
+    array (
+      0 => '622',
+      1 => '623',
+      2 => '624',
+    ),
+    'shelf_number' => '000005',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000005B02012',
+      1 => 'P000005B02022',
+      2 => 'P000005B02032',
+      3 => 'P000005B03012',
+      4 => 'P000005B03022',
+      5 => 'P000005B03032',
+      6 => 'P000005B04012',
+      7 => 'P000005B04022',
+      8 => 'P000005B04032',
+      9 => 'P000006B01011',
+      10 => 'P000006B01021',
+      11 => 'P000006B01031',
+    ),
+  ),
+)
+2026-02-07 14:17:45  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000005',
+          'siteCode' => '0006996XX0021060',
+          'siteName' => '0006996XX0021060',
+          'x' => '6996.0',
+          'y' => '21060.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_177044506543',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_177044506540',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 14:57:17  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770447437324',
+      1 => 'task_tote_inbound_agv_shelf_1770447437327',
+    ),
+    'task_ids' => 
+    array (
+      0 => '627',
+      1 => '628',
+    ),
+    'shelf_number' => '000006',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000006B02011',
+      1 => 'P000006B02021',
+      2 => 'P000006B02031',
+      3 => 'P000006B03011',
+      4 => 'P000006B03021',
+      5 => 'P000006B03031',
+      6 => 'P000006B04011',
+      7 => 'P000006B04021',
+      8 => 'P000006B04031',
+      9 => 'P000006B01012',
+      10 => 'P000006B01022',
+      11 => 'P000006B01032',
+    ),
+  ),
+)
+2026-02-07 14:57:18  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000006',
+          'siteCode' => '0006996XX0019050',
+          'siteName' => '0006996XX0019050',
+          'x' => '6996.0',
+          'y' => '19050.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770447437327',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770447437324',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 15:39:07  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770449947123',
+      1 => 'task_tote_inbound_agv_shelf_1770449947126',
+      2 => 'task_tote_inbound_agv_shelf_1770449947138',
+    ),
+    'task_ids' => 
+    array (
+      0 => '631',
+      1 => '632',
+      2 => '633',
+    ),
+    'shelf_number' => '000006',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000006B02012',
+      1 => 'P000006B02022',
+      2 => 'P000006B02032',
+      3 => 'P000006B03012',
+      4 => 'P000006B03022',
+      5 => 'P000006B03032',
+      6 => 'P000006B04012',
+      7 => 'P000006B04022',
+      8 => 'P000006B04032',
+      9 => 'P000007B01011',
+      10 => 'P000007B01021',
+      11 => 'P000007B01031',
+    ),
+  ),
+)
+2026-02-07 15:39:07  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000006',
+          'siteCode' => '0006996XX0019050',
+          'siteName' => '0006996XX0019050',
+          'x' => '6996.0',
+          'y' => '19050.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770449947126',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770449947123',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 16:21:19  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770452479139',
+      1 => 'task_tote_inbound_agv_shelf_1770452479144',
+      2 => 'task_tote_inbound_agv_shelf_1770452479147',
+    ),
+    'task_ids' => 
+    array (
+      0 => '637',
+      1 => '638',
+      2 => '639',
+    ),
+    'shelf_number' => '000005',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000005B04021',
+      1 => 'P000007B02011',
+      2 => 'P000007B02021',
+      3 => 'P000007B02031',
+      4 => 'P000007B03011',
+      5 => 'P000007B03021',
+      6 => 'P000007B03031',
+      7 => 'P000007B04011',
+      8 => 'P000007B04021',
+      9 => 'P000007B04031',
+      10 => 'P000007B01012',
+      11 => 'P000007B01022',
+    ),
+  ),
+)
+2026-02-07 16:21:19  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000005',
+          'siteCode' => '0006996XX0021060',
+          'siteName' => '0006996XX0021060',
+          'x' => '6996.0',
+          'y' => '21060.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770452479144',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770452479139',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 17:14:25  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770455665124',
+      1 => 'task_tote_inbound_agv_shelf_1770455665127',
+      2 => 'task_tote_inbound_agv_shelf_1770455665148',
+    ),
+    'task_ids' => 
+    array (
+      0 => '642',
+      1 => '643',
+      2 => '644',
+    ),
+    'shelf_number' => '000007',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000007B01032',
+      1 => 'P000007B02012',
+      2 => 'P000007B02022',
+      3 => 'P000007B02032',
+      4 => 'P000007B03012',
+      5 => 'P000007B03032',
+      6 => 'P000007B04012',
+      7 => 'P000007B04022',
+      8 => 'P000007B04032',
+      9 => 'P000008B01011',
+      10 => 'P000008B01021',
+      11 => 'P000008B01031',
+    ),
+  ),
+)
+2026-02-07 17:14:25  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000007',
+          'siteCode' => '0006996XX0017040',
+          'siteName' => '0006996XX0017040',
+          'x' => '6996.0',
+          'y' => '17040.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770455665127',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770455665124',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 17:58:27  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770458307883',
+      1 => 'task_tote_inbound_agv_shelf_1770458307885',
+    ),
+    'task_ids' => 
+    array (
+      0 => '647',
+      1 => '648',
+    ),
+    'shelf_number' => '000008',
+    'add_arr' => 24,
+    'to_location_list' => 
+    array (
+      0 => 'P000008B02011',
+      1 => 'P000008B02021',
+      2 => 'P000008B02031',
+      3 => 'P000008B03011',
+      4 => 'P000008B03021',
+      5 => 'P000008B03031',
+      6 => 'P000008B04011',
+      7 => 'P000008B04021',
+      8 => 'P000008B04031',
+      9 => 'P000008B01012',
+      10 => 'P000008B01022',
+      11 => 'P000008B01032',
+    ),
+  ),
+)
+2026-02-07 17:58:28  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000008',
+          'siteCode' => '0006996XX0015030',
+          'siteName' => '0006996XX0015030',
+          'x' => '6996.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770458307885',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770458307883',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 18:17:29  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_177045944910',
+      1 => 'task_tote_inbound_agv_shelf_177045944912',
+    ),
+    'task_ids' => 
+    array (
+      0 => '651',
+      1 => '652',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-07 18:17:29  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_177045944912',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_177045944910',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-07 18:23:08  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770459787833',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-08 16:53:25  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770540804806',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-08 17:28:26  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770542906231',
+      1 => 'task_tote_inbound_agv_shelf_1770542906234',
+    ),
+    'task_ids' => 
+    array (
+      0 => '659',
+      1 => '660',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-08 17:28:26  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770542906234',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770542906231',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-09 08:51:35  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_177059829592',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-09 08:57:55  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770598675873',
+      1 => 'task_tote_inbound_agv_shelf_1770598675875',
+    ),
+    'task_ids' => 
+    array (
+      0 => '665',
+      1 => '666',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 2,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+    ),
+  ),
+)
+2026-02-09 08:57:56  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770598675875',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770598675873',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-09 15:03:09  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770620588967',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-09 15:10:07  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770621006948',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-09 15:20:11  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770621610654',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-09 15:25:31  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770621931104',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-09 15:30:48  array (
+  'code' => 'SUCCESS',
+  'message' => '成功',
+  'data' => 
+  array (
+    'robotTaskCode' => 'task_tote_inbound_ctu_1770622248391',
+  ),
+  'errorCode' => '0',
+  'success' => true,
+)
+2026-02-09 15:42:05  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770622925808',
+      1 => 'task_tote_inbound_agv_shelf_1770622925813',
+    ),
+    'task_ids' => 
+    array (
+      0 => '679',
+      1 => '680',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+      1 => 'P000009B01021',
+    ),
+  ),
+)
+2026-02-09 15:42:06  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770622925813',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770622925808',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-09 15:53:08  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770623588929',
+      1 => 'task_tote_inbound_agv_shelf_1770623588931',
+    ),
+    'task_ids' => 
+    array (
+      0 => '683',
+      1 => '684',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 4,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B01011',
+      1 => 'P000009B01021',
+    ),
+  ),
+)
+2026-02-09 15:53:09  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770623588931',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770623588929',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)
+2026-02-09 17:05:44  array (
+  'status' => 1,
+  'data' => 
+  array (
+    'task_code_arr' => 
+    array (
+      0 => 'task_tote_inbound_agv_1770627944559',
+      1 => 'task_tote_inbound_agv_shelf_1770627944563',
+      2 => 'task_tote_inbound_agv_shelf_1770627944566',
+      3 => 'task_tote_inbound_agv_shelf_1770627944568',
+      4 => 'task_tote_inbound_agv_shelf_1770627944570',
+    ),
+    'task_ids' => 
+    array (
+      0 => '690',
+      1 => '691',
+      2 => '692',
+      3 => '693',
+      4 => '694',
+    ),
+    'shelf_number' => '000009',
+    'add_arr' => 36,
+    'to_location_list' => 
+    array (
+      0 => 'P000009B02031',
+      1 => 'P000003B03012',
+      2 => 'P000003B03022',
+      3 => 'P000003B03032',
+      4 => 'P000002B03012',
+      5 => 'P000002B03022',
+      6 => 'P000002B03032',
+      7 => 'P000002B04012',
+      8 => 'P000002B04022',
+      9 => 'P000002B04032',
+      10 => 'P000001B01011',
+      11 => 'P000001B01021',
+      12 => 'P000001B01031',
+      13 => 'P000001B02011',
+      14 => 'P000001B02021',
+      15 => 'P000001B02031',
+      16 => 'P000001B03011',
+      17 => 'P000001B03021',
+    ),
+  ),
+)
+2026-02-09 17:05:45  array (
+  'code' => 'SUCCESS',
+  'data' => 
+  array (
+    'find' => 
+    array (
+      0 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000009',
+          'siteCode' => '0011734XX0015030',
+          'siteName' => '0011734XX0015030',
+          'x' => '11734.0',
+          'y' => '15030.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+      1 => 
+      array (
+        'code' => 'SUCCESS',
+        'message' => '成功',
+        'data' => 
+        array (
+          'carrierCode' => '000010',
+          'siteCode' => '0003440XX0005000',
+          'siteName' => '0003440XX0005000',
+          'x' => '3440.0',
+          'y' => '5000.0',
+          'carrierStatus' => 'NORMAL',
+        ),
+        'success' => true,
+      ),
+    ),
+    0 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_shelf_1770627944563',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+    1 => 
+    array (
+      'code' => 'SUCCESS',
+      'message' => '成功',
+      'data' => 
+      array (
+        'robotTaskCode' => 'task_tote_inbound_agv_1770627944559',
+      ),
+      'errorCode' => '0',
+      'success' => true,
+    ),
+  ),
+)

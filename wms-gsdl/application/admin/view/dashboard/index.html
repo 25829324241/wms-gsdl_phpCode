@@ -1,0 +1,4458 @@
+<style type="text/css">
+        /* 针对模态框中的表格 */
+    #product_warn_list_modal .table td {
+        font-size: 12px; /* 10px可能太小，建议12px以上 */
+        max-width: 100px; 
+        white-space: normal !important; /* 关键：允许换行 */
+        word-wrap: break-word;          /* 长单词换行 */
+        overflow-wrap: break-word;      /* 新版标准 */
+    }
+
+    .sm-st {
+        background: #fff;
+        padding: 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    .sm-st-icon {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        line-height: 60px;
+        text-align: center;
+        font-size: 30px;
+        background: #eee;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        float: left;
+        margin-right: 10px;
+        color: #fff;
+    }
+
+    .sm-st-info {
+        padding-top: 2px;
+    }
+
+    .sm-st-info span {
+        display: block;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .orange {
+        background: #fa8564 !important;
+    }
+
+    .tar {
+        background: #45cf95 !important;
+    }
+
+    .sm-st .green {
+        background: #86ba41 !important;
+    }
+
+    .pink {
+        background: #AC75F0 !important;
+    }
+
+    .yellow-b {
+        background: #fdd752 !important;
+    }
+
+    .stat-elem {
+
+        background-color: #fff;
+        padding: 18px;
+        border-radius: 40px;
+
+    }
+
+    .stat-info {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: -5px;
+        padding: 8px;
+        -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05);
+        font-style: italic;
+    }
+
+    .stat-icon {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .st-red {
+        background-color: #F05050;
+    }
+
+    .st-green {
+        background-color: #27C24C;
+    }
+
+    .st-violet {
+        background-color: #7266ba;
+    }
+
+    .st-blue {
+        background-color: #23b7e5;
+    }
+
+    .stats .stat-icon {
+        color: #28bb9c;
+        display: inline-block;
+        font-size: 26px;
+        text-align: center;
+        vertical-align: middle;
+        width: 50px;
+        float: left;
+    }
+
+    .stat {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+
+    .stat .value {
+        font-size: 20px;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
+    }
+
+    .stat .name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 5px 0;
+    }
+
+    .stat.lg .value {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .stat-col {
+        margin:0 0 10px 0;
+    }
+    .stat.lg .name {
+        font-size: 16px;
+    }
+
+    .stat-col .progress {
+        height: 2px;
+    }
+
+    .stat-col .progress-bar {
+        line-height: 2px;
+        height: 2px;
+    }
+
+    .item {
+        padding: 30px 0;
+    }
+
+
+    #statistics .panel {
+        min-height: 150px;
+    }
+
+    #statistics .panel h5 {
+        font-size: 14px;
+    }
+</style>
+<div class="panel panel-default panel-intro">
+    <div class="panel-heading">
+        {:build_heading(null, false)}
+        <ul class="nav nav-tabs">
+           <!-- <li ><a href="#one" data-toggle="tab">{:__('Dashboard1')}</a></li>-->
+            <li class="active"><a href="#five" data-toggle="tab">货品入库</a></li>
+            <li><a href="#six" data-toggle="tab">货品出库</a></li>
+           <li><a href="#two" data-toggle="tab">系统操作</a></li>
+           <li><a href="#seven" data-toggle="tab">密集柜物料</a></li>
+           <li><a href="#eight" data-toggle="tab">密集柜操作</a></li>
+            <!-- <li><a href="#three" data-toggle="tab">理货</a></li> -->
+        </ul>
+    </div>
+    <input type="hidden" id="cid" value="{$cid}">
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content" style="width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+            <div class="tab-pane fade" id="one">
+
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="sm-st clearfix">
+                            <span class="sm-st-icon st-red"><i class="fa fa-users"></i></span>
+                            <div class="sm-st-info">
+                                <span>{$totaluser}</span>
+                                入库订单
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="sm-st clearfix">
+                            <span class="sm-st-icon st-violet"><i class="fa fa-magic"></i></span>
+                            <div class="sm-st-info">
+                                <span>{$totaladdon}</span>
+                                出库订单
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="sm-st clearfix">
+                            <span class="sm-st-icon st-blue"><i class="fa fa-leaf"></i></span>
+                            <div class="sm-st-info">
+                                <span>{$attachmentnums}</span>
+                                货品数
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="sm-st clearfix">
+                            <span class="sm-st-icon st-green"><i class="fa fa-user"></i></span>
+                            <div class="sm-st-info">
+                                <span>{$totaladmin}</span>
+                                容器数
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="row">
+                    <div class="col-lg-8">
+                        <div id="echart" class="btn-refresh" style="height:300px;width:100%;"></div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card sameheight-item stats">
+                            <div class="card-block">
+                                <div class="row row-sm stats-container">
+                                    <div class="col-xs-6 stat-col">
+                                        <div class="stat-icon"><i class="fa fa-rocket"></i></div>
+                                        <div class="stat">
+                                            <div class="value"> {$todayusersignup}</div>
+                                            <div class="name"> {:__('Today user signup')}</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 stat-col">
+                                        <div class="stat-icon"><i class="fa fa-vcard"></i></div>
+                                        <div class="stat">
+                                            <div class="value"> {$todayuserlogin}</div>
+                                            <div class="name"> {:__('Today user login')}</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6  stat-col">
+                                        <div class="stat-icon"><i class="fa fa-calendar"></i></div>
+                                        <div class="stat">
+                                            <div class="value"> {$threednu}</div>
+                                            <div class="name"> {:__('Three dnu')}</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 stat-col">
+                                        <div class="stat-icon"><i class="fa fa-calendar-plus-o"></i></div>
+                                        <div class="stat">
+                                            <div class="value"> {$sevendnu}</div>
+                                            <div class="name"> {:__('Seven dnu')}</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6  stat-col">
+                                        <div class="stat-icon"><i class="fa fa-user-circle"></i></div>
+                                        <div class="stat">
+                                            <div class="value"> {$sevendau}</div>
+                                            <div class="name"> {:__('Seven dau')}</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6  stat-col">
+                                        <div class="stat-icon"><i class="fa fa-user-circle-o"></i></div>
+                                        <div class="stat">
+                                            <div class="value"> {$thirtydau}</div>
+                                            <div class="name"> {:__('Thirty dau')}</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" style="width: 20%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <div class="row" style="margin-top:15px;" id="statistics">
+
+                    <div class="col-lg-12">
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="panel bg-blue-gradient no-border">
+                            <div class="panel-body">
+                                <div class="panel-title">
+                                    <span class="label label-primary pull-right">{:__('Real time')}</span>
+                                    <h5>执行中任务</h5>
+                                </div>
+                                <div class="panel-content">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h1 class="no-margins">{$totalworkingaddon}</h1>
+                                            <div class="font-bold"><i class="fa fa-magic"></i>
+                                                <small>当前执行中任务数</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="panel bg-teal-gradient no-border">
+                            <div class="panel-body">
+                                <div class="ibox-title">
+                                    <span class="label label-primary pull-right">{:__('Real time')}</span>
+                                    <h5>{:__('Database count')}</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">{$dbtablenums}</h1>
+                                            <div class="font-bold"><i class="fa fa-database"></i>
+                                                <small>{:__('Database table nums')}</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">{$dbsize|format_bytes=###,'',0}</h1>
+                                            <div class="font-bold"><i class="fa fa-filter"></i>
+                                                <small>{:__('Database size')}</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <div class="panel bg-purple-gradient no-border">
+                            <div class="panel-body">
+                                <div class="ibox-title">
+                                    <span class="label label-primary pull-right">{:__('Real time')}</span>
+                                    <h5>货品统计</h5>
+                                </div>
+                                <div class="ibox-content">
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">{$attachmentnums}</h1>
+                                            <div class="font-bold"><i class="fa fa-files-o"></i>
+                                                <small>件</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">123</h1>
+                                            <div class="font-bold"><i class="fa fa-filter"></i>
+                                                <small>总数量</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="panel bg-green-gradient no-border">
+                            <div class="panel-body">
+                                <div class="ibox-title">
+                                    <span class="label label-primary pull-right">{:__('Real time')}</span>
+                                    <h5>机器人在线数</h5>
+                                </div>
+                                <div class="ibox-content">
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h1 class="no-margins">{$picturenums}</h1>
+                                            <div class="font-bold"><i class="fa fa-picture-o"></i>
+                                                <small>辆</small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="two">
+                <div class="row">
+                    <div class="container">
+                        <div class="row clearfix">
+                            <div class="col-md-12 column">
+                                <!-- <h3>
+                                   容器设置
+                                </h3>
+
+                                    <div class="form-group">
+                                        <label for="set_container_code1">配置容器状态：</label><input type="text" class="form-control" id="set_container_code1" value="A000004062"/>
+                                        <p class="help-block">
+                                           操作容器的 创建 删除 同步
+                                        </p>
+                                    </div>
+                                    <button id="add_container_code" type="button" class="btn btn-add">创建</button> <button id="del_container_code" type="button" class="btn btn-dark">删除</button> <button type="submit" class="btn btn-default">同步</button> -->
+
+                                <h3>
+                                    容器库位关联操作
+                                </h3>
+
+                                    <div class="form-group">
+                                        <label for="set_container_code2">容器编号：</label><input type="text" class="form-control" id="set_container_code3" value=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="set_location_code2">库位编号：</label><input type="text" class="form-control" id="set_location_code3" value=""/>
+                                        <p class="help-block">
+                                          操作容器与库位 绑定 移除 
+                                        </p>
+                                    </div>
+
+                                     <button onclick="container_move_in(3)" type="button" class="btn btn-default">绑定</button> 
+                                     <button onclick="container_move_out(3)" type="button" class="btn btn-default">移除绑定</button> 
+                                     <!-- <button type="button" class="btn btn-default">同步</button> -->
+
+
+                                <h3>
+                                    货架相关操作
+                                </h3>
+                                <div class="form-group">
+                                    <button class="btn btn-default" onclick="rotate_three(1)">3层货架旋转到B面</button>
+                                    <button class="btn btn-default" onclick="rotate_three(2)">3层货架旋转到A面</button>  
+                                    <button class="btn btn-default" onclick="move_agv_three(1)">3层货架移动到暂停点</button> 
+                                    <button class="btn btn-default" onclick="move_agv_three(2)">3层货架移动到工作点</button>
+                                    <button class="btn btn-default" onclick="move_agv_four_shelf(1)">4号货架移动到储位</button> 
+                                    <button class="btn btn-default" onclick="move_agv_four_shelf(2)">4号货架移动到暂停点</button>
+                                
+                                </div>
+                                
+
+
+                                <!-- <h3>
+                                    仓库可视化布局
+                                </h3>
+                                <div class="row clearfix">
+                                    <div class="col-md-12 column">
+                                        <h3>
+                                            第一排
+                                    </h3>
+                                        <table class="table">
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    第3层
+                                                </td>
+                                                <td>
+                                                   正常
+                                                </td>
+                                                <td>
+                                                    正常
+                                                </td>
+                                                <td>
+                                                    正常
+                                                </td>
+                                            </tr>
+                                            <tr class="success">
+                                                <td>
+                                                    第2层
+                                                </td>
+                                                <td>
+                                                    正常
+                                                </td>
+                                                <td>
+                                                    出入库中
+                                                </td>
+                                                <td>
+                                                   锁定
+                                                </td>
+                                            </tr>
+                                            <tr class="error">
+                                                <td>
+                                                    第1层
+                                                </td>
+                                                <td>
+                                                    正常
+                                                </td>
+                                                <td>
+                                                    锁定
+                                                </td>
+                                                <td>
+                                                    正常
+                                                </td>
+                                            </tr>
+                                            <tr >
+                                                <td>
+
+                                                </td>
+                                                <td>
+                                                    第1列
+                                                </td>
+                                                <td>
+                                                    第2列
+                                                </td>
+                                                <td>
+                                                    第3列
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="three">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <div class="row clearfix">
+                                <div class="col-md-12 column">
+                                    <div class="row clearfix">
+                                        <div class="col-md-6 column">
+                                            <label for="left_from_w1_code" class="control-label col-xs-12 col-sm-2">扫码：</label><span id="left_w_s_c1">(测试扫码)</span>
+                                            <div class="col-xs-12 col-sm-8">
+                                                <input id="left_from_w1_code" data-rule="required" class="form-control" name="left_from_w1_code" type="text" value="{$w_s_c}">
+                                                <input id="left_from_w1_code1" data-rule="required" class="form-control" name="left_from_w1_code1" type="text" value="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 column">
+                                            当前工作位：<span id="left_w_s_c1_ret">{$w_s_c}</span><a id="modal-755239" href="#modal-container-755239" role="button" class="btn" data-toggle="modal">选择工作位</a>
+                                            <input type="hidden" id="left_w_id" value="{$w_id}">
+                                            <input type="hidden" id="left_w_b_id" value="{$w_b_id}">
+                                            <input type="hidden" id="anchor" value="">
+                                            <input type="hidden" id="qr_code" value="">
+                                            <div class="modal fade" id="modal-container-755239" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                            <h4 class="modal-title" id="myModalLabel">
+                                                                标题
+                                                            </h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            内容...
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button type="button" class="btn btn-primary">保存</button>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <h3 class="text-center">
+                                        待理货容器<span id="left_c_s_c1">(测试扫码)</span>
+                                    </h3>
+                                    <div class="row clearfix">
+                                        <div class="col-md-6 column">
+                                            <label for="left_container_code1" class="control-label col-xs-12 col-sm-2">托盘号：</label>
+                                            <div class="col-xs-12 col-sm-8">
+                                                <input id="left_container_code1" data-rule="required" class="form-control" name="left_container_code1" type="text" value="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 column">
+                                            <div class="layer-footer"><button id="left_tallying_container_tote_inbound1" type="button" class="btn btn-default btn-primary">容器回库</button><button id="left_container_reclaim1" type="button" class="btn btn-danger btn-primary">空托回收</button></div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>
+                                            操作
+                                        </th>
+                                        <th>
+                                            序号
+                                        </th>
+                                        <th>
+                                            物料编码
+                                        </th>
+                                        <th>
+                                            物料名称
+                                        </th>
+                                        <th>
+                                            数量
+                                        </th>
+                                        <th>
+                                            状态
+                                        </th>
+                                        <th>
+                                            批次
+                                        </th>
+                                        <th>
+                                            单位
+                                        </th>
+                                        <th>
+                                            格子
+                                        </th>
+                                        </thead>
+                                        <tbody id="left1_tr">
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-md-6 column">
+                                    <h3 class="text-center">
+                                        待放入容器<span id="right_c_s_c1">(测试扫码)</span>
+                                    </h3>
+                                    <div class="row clearfix">
+                                        <div class="col-md-6 column">
+
+                                                <label for="right_container_code1" class="control-label col-xs-12 col-sm-2">托盘号：</label>
+                                                <div class="col-xs-12 col-sm-8">
+                                                    <input id="right_container_code1" name="right_container_code1" data-rule="required" class="form-control" type="text" value="">
+                                                </div>
+
+                                        </div>
+                                        <div class="col-md-6 column">
+                                            <div class="layer-footer"><button id="right_tallying_container_tote_inbound" type="button" class="btn btn-default btn-primary">容器回库</button><button id="right_container_reclaim" type="button" class="btn btn-danger btn-primary">空托回收</button></div>
+                                        </div>
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>
+                                            操作
+                                        </th>
+                                        <th>
+                                            序号
+                                        </th>
+                                        <th>
+                                            物料编码
+                                        </th>
+                                        <th>
+                                            物料名称
+                                        </th>
+                                        <th>
+                                            数量
+                                        </th>
+                                        <th>
+                                            状态
+                                        </th>
+                                        <th>
+                                            批次
+                                        </th>
+                                        <th>
+                                            单位
+                                        </th>
+                                        <th>
+                                            格子
+                                        </th>
+                                        </thead>
+                                        <tbody id="right1_tr">
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <div class="layer-footer"><button type="button" id="left_call_container_1" class="btn btn-primary btn-lg" href="#left_call_container" role="button" data-toggle="modal">呼叫容器</button> <button id="transfer" type="button" class="btn btn-lg btn-warning">转移物料</button></div>
+							<div class="modal fade" id="left_call_container" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                            <h4 class="modal-title" id="myModalLabel1">
+                                                                呼叫仓库容器
+                                                            </h4>
+                                                        </div>
+                                                        <div class="modal-body" id="lift_call_container_list">
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id="left_call_container_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade active in" id="five">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <label for="left_from_c1_code" class="control-label col-xs-12 col-sm-2">工作位：</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="left_from_c1_code" data-rule="required" class="form-control" name="left_from_c1_code" type="text" value="{$w_s_c}" Placeholder="请输入工作位编号">
+                                    </div>
+                                </div>
+                                <input type="hidden" id="left_container_code2" value="">
+                                <input type="hidden" id="product_id_1" value="">
+                                <div class="col-md-6 column">
+                                    当前工作位：<span id="left_w_s_c2_ret">{$w_s_c}</span>
+                                    <a id="left_from_c1_code_s" href="#left_from_c1_code_s_container" role="button" class="btn" data-toggle="modal">选择工作位</a>
+
+                                    <div class="modal fade" id="left_from_c1_code_s_container" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="myModalLabel2">
+                                                        工作位名称
+                                                    </h4>
+                                                </div>
+                                                <div class="modal-body" id="left_from_c1_code_s_list">
+                                                    无工作位可选...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id="left_from_c1_code_s_container_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row clearfix">
+                        <h3>
+                            容器入库相关操作
+                        </h3>
+                        <button class="btn btn-default" onclick="move_agv_three(2)">呼叫货架</button>
+                        <div class="form-group">
+                            <label for="set_container_code2">容器编号：</label><input type="text" class="form-control" id="set_container_code1" value=""/>
+                        </div>
+                        <div class="form-group">
+                            <label for="set_location_code2">库位编号：</label><input type="text" class="form-control" id="set_location_code1" value=""/>
+                            <p class="help-block">
+                                操作容器与库位 绑定
+                            </p>
+                        </div>
+
+                        <button onclick="container_move_in(1)" type="button" class="btn btn-default">绑定</button> 
+                        <!-- <button id="container_move_out" type="button" class="btn btn-default">移除绑定</button>  -->
+                       
+
+
+
+                        <div class="col-md-8 column">
+                            <h3 class="text-center">
+                               容器信息  <div id="left_container_code2_title"></div>
+                            </h3>
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <label class="control-label col-xs-12 col-sm-3">容器号：</label>
+                                    <div class="col-xs-12 col-sm-6"> 
+                                        <input id="left_container_code2_title1" data-rule="required" class="form-control" name="left_container_code2_title1" type="text" value="" Placeholder="请输入容器编号">
+                                    </div>
+                                    <div> 
+                                        <button href="#inbound_choose_container" id="inbound_choose_container_button" class="btn btn-primary btn-sm" role="button"  data-toggle="modal">选择料箱</button>
+                                    </div>
+
+                                    <div class="modal fade" id="inbound_choose_container" role="dialog" aria-labelledby="inbound_choose_container_label" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="inbound_choose_container_label">
+                                                        呼叫仓库容器
+                                                    </h4>
+                                                </div>
+                                                <div class="col-md-8 column">
+                                                    <label for="left_from_pick1_code" class="control-label col-xs-12 col-sm-4">物料筛选：</label>
+                                                    <div class="col-xs-12 col-sm-6">
+                                                        <input id="inbound_product_name"  class="form-control" name="inbound_product_name" type="text" value="" Placeholder="请输入货品名称">
+                                                    </div>
+                                                    <button class="btn btn-default" onclick="search_container(1)">搜索</button>
+                                                </div>
+                                                <div class="modal-footer">
+
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+                                                    <button id="inbound_choose_container_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                                <div class="modal-body" id="inbound_choose_container_list">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <p>
+                            </p>
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        操作
+                                    </th>
+                                    <th>
+                                      序号
+                                    </th>
+                                    <th>
+                                       物料编码
+                                    </th>
+                                    <th>
+                                       物料名称
+                                    </th>
+                                    <th>
+                                        数量
+                                    </th>
+                                    <th>
+                                        状态
+                                    </th>
+                                    <th>
+                                        批次
+                                    </th>
+                                    <th>
+                                        单位
+                                    </th>
+                                    <th>
+                                        格子
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody id="left2_tr">
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-4 column">
+                            <h3 class="text-center">
+                               组盘物料
+                            </h3>
+                            <table class="table">
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        物料编码：
+                                    </td>
+                                    <td id="left2_td_1">
+                                       <input id="product_code" type="text" value="" Placeholder="请输入物料编码">
+                                    </td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>
+                                       物料名称：
+                                    </td>
+                                    <td id="left2_td_2">
+                                        <input id="left2_td_6_name" type="text" value="" Placeholder="请输入货品名称">
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                       规格型号：
+                                    </td>
+                                    <td id="left2_td_3">
+                                       件
+                                    </td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>
+                                       物料批次：
+                                    </td>
+                                    <td id="left2_td_4">
+                                       自动
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        物料状态：
+                                    </td>
+                                    <td id="left2_td_5">
+                                        正常
+                                    </td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>
+                                        组盘数量：
+                                    </td>
+                                    <td id="left2_td_6">
+                                      <input  id="left2_td_6_num" type="number" value="1">
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        格子：
+                                    </td>
+                                    <td id="left2_td_7">
+                                        自动
+                                    </td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                            <p style="display: none;">
+                                <strong>占比：</strong><div class="radio" style="display: none;">
+                            <label><input type="radio" id="left2_z1" name="left2_z" value="1" checked>0%</label>
+                            <label><input type="radio" id="left2_z2" name="left2_z" value="2" >25%</label>
+                            <label><input type="radio" id="left2_z3" name="left2_z" value="3" >50%</label>
+                                <label><input type="radio" id="left2_z4" name="left2_z" value="4" >75%</label>
+                                    <label><input type="radio" id="left2_z5" name="left2_z" value="5" >100%</label>
+                        </div>
+
+                            </p>
+                            <button style="display: none;" type="button" id="left_call_container_2" class="btn btn-primary btn-lg" href="#left_call_container_3" role="button" data-toggle="modal">呼叫仓库容器</button> 
+                            <button type="button" class="btn btn-lg btn-primary" id="left2_container_combo">货品组盘</button> 
+                            <button type="button" class="btn btn-lg btn-warning" id="left2_container_combo_inbound_in">容器入库</button> 
+                            
+                            <button href="#inbound_container" id="inbound_container_button" class="btn btn-lg btn-primary" role="button"  data-toggle="modal">AGV批量入库</button>
+                            <div class="modal fade" id="inbound_container" role="dialog" aria-labelledby="inbound_container_label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title" id="inbound_container_label">
+                                                呼叫仓库容器
+                                            </h4>
+                                        </div>
+                                        
+
+                                        <div class="col-md-8 column">
+                                            <label for="left_from_pick1_code" class="control-label col-xs-12 col-sm-4">物料筛选：</label>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <input id="inbound_product_name_all"  class="form-control" name="inbound_product_name_all" type="text" value="" Placeholder="请输入货品名称">
+                                            </div>
+                                            <button class="btn btn-default" onclick="search_container(2)">搜索</button>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button class="btn btn-default"  id="checkall">全选</button>
+                                           
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+                                            <button id="inbound_container_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                        </div>
+                                        <div class="modal-body" id="inbound_container_list">
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <button style="display: none;" type="button" id="move_off1" class="btn btn-lg btn-warning">密集架关闭</button>
+
+                            <div class="modal fade" id="left_call_container_3" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title" id="myModalLabel3">
+                                                呼叫仓库容器
+                                            </h4>
+                                        </div>
+                                        <div class="modal-body" id="lift_call_container_list_3">
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id="left_call_container_submit_2" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="six">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <label for="left_from_pick1_code" class="control-label col-xs-12 col-sm-2">工作位：</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="left_from_pick1_code" data-rule="required" class="form-control" name="left_from_pick1_code" type="text" value="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 column">
+                                    当前工作位：<span id="left_w_s_c3_ret"></span><a id="left_from_c2_code_s" href="#left_from_c2_code_s_container" role="button" class="btn" data-toggle="modal">选择工作位</a>
+
+                                    <div class="modal fade" id="left_from_c2_code_s_container" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="myModalLabel4">
+                                                        工作位名称
+                                                    </h4>
+                                                </div>
+                                                <div class="modal-body" id="left_from_c2_code_s_list">
+                                                    无工作位可选...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button id="left_from_c2_code_s_container_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <h3 class="text-center">
+                                      商品出库   <!--<button type="button" class="btn btn-primary">请选择拣货任务</button>-->
+                                    </h3>
+                                    <!-- <p>
+                                        <strong>分拣操作：</strong><div id="sortation_status"></div><div id="left_pick_code"></div>
+                                    </p>  -->
+
+
+                                    <label class=" col-xs-12 col-sm-2">容器号：</label>
+                                    <div class="col-xs-12 col-sm-6"> 
+                                        <input id="outbind_code" data-rule="required" class="form-control" name="outbind_code" type="text" value="" Placeholder="请输入容器编号">
+                                    </div>
+
+                                    <br><br>
+                                     
+                                    <button href="#outbind_code_choose" id="outbind_code_choose_button" class="btn btn-primary btn-sm" role="button"  data-toggle="modal">选择料箱</button>
+                                    
+
+                                    <div class="modal fade" id="outbind_code_choose" role="dialog" aria-labelledby="outbind_code_choose_label" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="outbind_code_choose_label">
+                                                        呼叫仓库容器
+                                                    </h4>
+                                                </div>
+                                                
+                                                <div class="col-md-8 column">
+                                                    <label for="left_from_pick1_code" class="control-label col-xs-12 col-sm-4">物料筛选：</label>
+                                                    <div class="col-xs-12 col-sm-6">
+                                                        <input id="outbind_code_product_name"  class="form-control" name="outbind_code_product_name" type="text" value="" Placeholder="请输入货品名称">
+                                                    </div>
+                                                    <button class="btn btn-default" onclick="search_container(3)">搜索</button>
+                                                </div>
+
+
+                                                <div class="modal-footer">
+
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+                                                    <button id="outbind_code_choose_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                                <div class="modal-body" id="outbind_code_choose_list">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    
+                                    <!-- <button type="button" id='left_call_container_4' class="btn btn-primary btn-sm" href="#left_call_container_5" role="button" data-toggle="modal">呼叫出库</button> -->
+                                    <div class="modal fade" id="left_call_container_5" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="myModalLabel5">
+                                                        呼叫仓库容器
+                                                    </h4>
+                                                </div>
+                                                <div class="col-md-8 column">
+                                                    <label for="left_from_pick1_code" class="control-label col-xs-12 col-sm-4">物料筛选：</label>
+                                                    <div class="col-xs-12 col-sm-6">
+                                                        <input id="sortation_product_name"  class="form-control" name="sortation_product_name" type="text" value="" Placeholder="请输入货品名称">
+                                                    </div>
+                                                    <button class="btn btn-default" onclick="search_container(4)">搜索</button>
+                                                </div>
+                                                <div class="modal-footer">
+
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+                                                    <button id="left_call_container_submit_4" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                                <div class="modal-body" id="lift_call_container_list_5">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    
+                                    <div class="modal fade" id="outbound_container" role="dialog" aria-labelledby="outbound_container_label" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="outbound_container_label">
+                                                        呼叫仓库容器
+                                                    </h4>
+                                                </div>
+                                                <div class="col-md-8 column">
+                                                    <label for="left_from_pick1_code" class="control-label col-xs-12 col-sm-4">物料筛选：</label>
+                                                    <div class="col-xs-12 col-sm-6">
+                                                        <input id="outbound_container_product_name"  class="form-control" name="outbound_container_product_name" type="text" value="" Placeholder="请输入货品名称">
+                                                    </div>
+                                                    <button class="btn btn-default" onclick="search_container(5)">搜索</button>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-default"  id="checkall_out">全选</button>
+                                                    
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+                                                    <button id="outbound_container_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                                <div class="modal-body" id="outbound_container_list">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+                                    
+                                    <button type="button" class="btn btn-primary btn-sm" id="sortation_restart">刷新</button>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                操作
+                                            </th>
+                                            <th>
+                                                编号
+                                            </th>
+                                            <th>
+                                                托盘号
+                                            </th>
+                                            <th>
+                                                商品名称
+                                            </th>
+                                            <th>
+                                                状态
+                                            </th>
+                                            <th>
+                                                拣货数
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="left3_tr">
+                                        <tr>
+                                           <!-- <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                TB - Monthly
+                                            </td>
+                                            <td>
+                                                01/04/2012
+                                            </td>
+                                            <td>
+                                                Default
+                                            </td>-->
+                                        </tr>
+                                        <!--<tr class="success">
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                TB - Monthly
+                                            </td>
+                                            <td>
+                                                01/04/2012
+                                            </td>
+                                            <td>
+                                                Approved
+                                            </td>
+                                        </tr>
+                                        <tr class="error">
+                                            <td>
+                                                2
+                                            </td>
+                                            <td>
+                                                TB - Monthly
+                                            </td>
+                                            <td>
+                                                02/04/2012
+                                            </td>
+                                            <td>
+                                                Declined
+                                            </td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>
+                                                3
+                                            </td>
+                                            <td>
+                                                TB - Monthly
+                                            </td>
+                                            <td>
+                                                03/04/2012
+                                            </td>
+                                            <td>
+                                                Pending
+                                            </td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>
+                                                4
+                                            </td>
+                                            <td>
+                                                TB - Monthly
+                                            </td>
+                                            <td>
+                                                04/04/2012
+                                            </td>
+                                            <td>
+                                                Call in to confirm
+                                            </td>
+                                        </tr>-->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-md-6 column">
+                                    <input type="hidden" id="sortation_container_id" value="">
+                                    <input type="hidden" id="sortation_task_id" value="">
+                                    <input type="hidden" id="container_item_id" value="">
+                                    <input type="hidden" id="left3_td_6_num_max" value="">
+                                    <input type="hidden" id="sortation_status_id" value="">
+                                    <h3 class="text-center">
+                                        出库详情 <div id="sortation_container_name"></div>
+                                    </h3>
+                                    <table class="table">
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                容器内物料：
+                                            </td>
+                                            <td id="left3_td_1_num">
+                                                
+                                            </td>
+
+                                        </tr>
+                                        <tr class="info">
+                                            <td>
+                                                物料名称：
+                                            </td>
+                                            <td id="left3_td_2_num">
+                                                <!--<input id="left3_td_6_name" type="text" value="" Placeholder="请输入货品名称">-->
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                规格型号：
+                                            </td>
+                                            <td id="left3_td_3_num">
+                                                
+                                            </td>
+
+                                        </tr>
+                                        <tr class="info">
+                                            <td>
+                                                物料批次：
+                                            </td>
+                                            <td id="left3_td_4_num">
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                物料状态：
+                                            </td>
+                                            <td id="left3_td_5_num">
+                                                正常
+                                            </td>
+
+                                        </tr>
+                                         <tr class="info">
+                                            <td>
+                                                剩余数量：
+                                            </td>
+                                            <td id="left3_td_6_num">
+                                               0
+                                            </td>
+
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                操作数量：
+                                            </td>
+                                            <td>
+                                                <input id="left3_td_7_num" type="number" value="1">
+                                            </td>
+
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p style="display: none;">
+                                        <strong>占比：</strong>  <div class="radio" style="display: none;">
+                                    <label><input type="radio" id="left3_z1" name="left3_z" value="1" checked>0%</label>
+                                    <label><input type="radio" id="left3_z2" name="left3_z" value="2" >25%</label>
+                                    <label><input type="radio" id="left3_z3" name="left3_z" value="3" >50%</label>
+                                    <label><input type="radio" id="left3_z4" name="left3_z" value="4" >75%</label>
+                                    <label><input type="radio" id="left3_z5" name="left3_z" value="5" >100%</label>
+                                </div>
+                                    </p> 
+                                    <button type="button" class="btn btn-lg btn-success" id="sortation_select">操作分拣</button>
+                                    <button type="button" class="btn btn-lg btn-primary" id="sortation_end">结束分拣</button>
+                                    <button id="container_outbound" class="btn btn-lg btn-warning">容器出库</button>
+                                    <!-- <button type="button" id='left_call_container_4' class="btn btn-primary btn-lg" href="#left_call_container_5" role="button" data-toggle="modal">呼叫出库选择</button> -->
+                                    <button href="#outbound_container" id="outbound_container_button" class="btn btn-lg btn-primary" role="button"  data-toggle="modal">批量出库</button> 
+                                    <!-- <button type="button" class="btn btn-lg btn-primary" id="sortation_container_combo_inbound_in">确认回库</button>  -->
+                                    <!-- <button type="button" id="move_off" class="btn btn-lg btn-warning">密集架关闭</button>
+                                    <button type="button" class="btn btn-lg btn-warning">空托回收</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <h3>
+                            容器库位移除操作
+                        </h3>
+                        <button class="btn btn-default" onclick="move_agv_three(1)">出库完成</button>
+                        <div class="form-group">
+                            <label for="set_container_code2">容器编号：</label><input type="text" class="form-control" id="set_container_code2" value=""/>
+                        </div>
+                        <div class="form-group">
+                            <label for="set_location_code2">库位编号：</label><input type="text" class="form-control" id="set_location_code2" value=""/>
+                            <p class="help-block">
+                                操作容器与库位 移除 
+                            </p>
+                        </div>
+
+                        <!-- <button id="container_move_in" type="button" class="btn btn-default">绑定</button>  -->
+                        <button onclick="container_move_out(2)" type="button" class="btn btn-default">移除绑定</button> 
+                       
+
+
+
+
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="seven">
+                <div class="container-fluid">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <label for="left_from_c1_code_s1" class="control-label col-xs-12 col-sm-2">搜索：</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="left_from_c1_code_s1" data-rule="required" class="form-control" name="left_from_c1_code_s1" type="text" value="" Placeholder="请输入物料名称搜索">
+                                    </div>
+                                    <button class="btn btn-default" onclick="search_move_product()">搜索</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-warning" onclick="add_move_product()">添加</button>
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <h3 class="text-center">
+                                库存信息
+                            </h3>
+                            <p>
+                            </p>
+                            <table class="table table-bordered" id="dataTable">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        ID
+                                    </th>
+                                    <th>
+                                        物料编码
+                                    </th>
+                                    <th>
+                                        物料名称
+                                    </th>
+                                    <th>
+                                        保质期
+                                    </th>
+                                    
+                                    <th>
+                                        操作
+                                    </th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-12 column">
+                            <div id="pagination" class="pagination"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="eight">
+                    <div class="row clearfix">
+                        <div class="col-md-8 column">
+                            <h3 class="text-center">
+                               密集柜容器信息
+                            </h3>
+                            <div class="row clearfix">
+                                <div class="col-md-6 column">
+                                    <label class="control-label col-xs-12 col-sm-3">容器号：</label>
+                                    <div class="col-xs-12 col-sm-6"> 
+                                        <input id="move_code" data-rule="required" class="form-control" name="move_code" type="text" value="" Placeholder="请输入容器编号">
+                                    </div>
+                                    <div> 
+                                        <button href="#move_product_area" onclick="getMoveCode()" class="btn btn-primary btn-sm" role="button"  data-toggle="modal">选择库位</button>
+                                    </div>
+
+
+                                    <div class="modal fade" id="move_product_area" role="dialog" aria-labelledby="get_move_code_label" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="get_move_code_label">
+                                                        选择密集柜库位
+                                                    </h4>
+                                                </div>
+
+                                                <div class="modal-footer">
+
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+                                                    <button id="get_move_code_submit" type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                                </div>
+                                                <div class="modal-body" id="get_move_code_list">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <p>
+                            </p>
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        操作
+                                    </th>
+                                    <th>
+                                      序号
+                                    </th>
+                                    <th>
+                                       物料编码
+                                    </th>
+                                    <th>
+                                       物料名称
+                                    </th>
+                                    <th>
+                                        数量
+                                    </th> 
+                                </tr>
+                                </thead>
+                                <tbody id="table_move_list">
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-4 column">
+                            <h3 class="text-center">
+                               物料
+                            </h3>
+                            <table class="table">
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        物料编码：
+                                    </td>
+                                    <td id="table_move_code">
+                                       <input id="table_move_code_input" type="text" value="" Placeholder="请输入物料编码">
+                                    </td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>
+                                       物料名称：
+                                    </td>
+                                    <td id="table_move_name">
+                                        <input id="table_move_name_input" type="text" value="" Placeholder="请输入货品名称">
+                                    </td>
+
+                                </tr>
+                                
+                                <tr class="info">
+                                    <td>
+                                        数量：
+                                    </td>
+                                    <td id="table_move_num">
+                                      <input  id="table_move_num_input" type="number" value="1">
+                                    </td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                            <button type="button" class="btn btn-lg btn-primary" onclick="move_product_change(1)">放货</button>
+                            <button type="button" class="btn btn-lg btn-primary" onclick="move_product_change(2)">取货</button>  
+                        </div>
+                    </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/assets/js/jquery.js"></script>
+<script>
+    var w_id = $("#left_w_id").val();//工作站id
+    var w_b_id = $("#left_w_b_id").val();//工作位id
+    var cid = $("#cid").val();//渠道id
+
+
+
+    $(document).ready(function(){
+      /*  $("#left_call_container").click(function(){
+            var str = $("#left_container_code").val();
+            Toastr.info(str);
+        });
+        //左边扫码
+        $("#left_s_c").click(function(){
+            console.log('888');
+            Toastr.info('123123123');
+        });*/
+        $('a[href^="#"]').on('click', function(e) {
+            // 阻止默认行为
+            //e.preventDefault();
+
+            // 获取锚点
+            var anchor =$(this).attr('href');
+            console.log(anchor);
+            if(anchor == '#seven'){
+                loadData(1);
+            }
+            $("#anchor").val(anchor);
+            switch (anchor) {
+                case '#three':
+                    console.log('t1');
+                    setTimeout(function(){
+                        $("#left_from_w1_code").focus();
+                    }, 50);
+                    break;
+                case '#five':
+                    console.log('t2');
+                    setTimeout(function(){
+                        $("#left_from_c1_code").focus();
+                    }, 50);
+
+                    break;
+                case '#six':
+                    console.log('t3');
+                    setTimeout(function(){
+                        $("#left_from_pick1_code").focus();
+                    }, 50);
+
+                    break;
+                    
+            }
+        });
+
+        //扫码获取工作位-测试
+        $("#left_w_s_c1").on("click", function() {
+            $.get("{:folder_url('dashboard/get_scan_code')}", {
+                type:1,scan_code:'scan_01'
+            },function (data){
+                console.log(data.code);
+                //console.log(data.data.content);
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    console.log(data.data.content);
+                    //设置工作站缓存
+                    $.get("{:folder_url('dashboard/set_scan_code')}", {
+                        content:data.data.content,w_id:data.data.w_id,w_b_id:data.data.w_b_id
+                    },function (data1){
+
+                    }, "json");
+                    
+                    $("#left_w_s_c1_ret").html(data.data.content);
+                    $("#left_w_s_c2_ret").html(data.data.content);
+                    $("#left_w_s_c3_ret").html(data.data.content);
+                    $("#left_from_w1_code").val(data.data.content);
+                  /*  $("#left_from_w2_code").val(data.data.content);
+                    $("#left_from_w3_code").val(data.data.content);*/
+                    //工作位id 和 工作站id
+                    w_id = data.data.w_id;
+                    w_b_id = data.data.w_b_id;
+                    $("#left_w_id").val(data.data.w_id);
+                    $("#left_w_b_id").val(data.data.w_b_id);
+
+
+                    //money.html(data.data.money);
+                    //window.location.href = 'plugin.php?id=ymw_wallet';
+                    return false;
+                }
+            }, "json");
+        });
+        //var left1_tr= $("#left1_tr");
+        //理货 扫码获取左容器内容-测试
+        $("#left_c_s_c1").on("click", function() {
+            $.get("{:folder_url('dashboard/get_scan_code')}", {
+                type:2,scan_code:'scan_01'
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    console.log(data.data.content);
+                    $("#left_container_code1").val(data.data.content);
+                    //获取容器内容列表
+                    get_container_item_list(data.data.content,'left1_tr','left_c1_id');
+                     /* $.get("{:folder_url('dashboard/get_container_item_list')}", {
+                        wh_c_numbering:data.data.content
+                    },function (data1){
+
+                        if(data1.code===0){
+                            Toastr.info(data1.msg);
+                        }else if(data1.code===1){
+                            console.log(data1.data);
+                            var list = data1.data;
+                            var left1_list_html ='';
+                            list.forEach(function(value,index){
+                                console.log(index,value);
+                                left1_list_html = left1_list_html+'<tr><td id="left_c1_id'+value.id+'"><input name="left_c1_ids" id="left_c1_ids" type="checkbox" value="'+value.id+'"></td><td>'+value.id+'</td><td>'+value.numbering+'</td><td>'+value.name+'</td><td>'+value.num+'</td><td>正常</td><td>1</td><td>'+value.measure_unit+'</td><td>1</td></tr>';
+                            });
+
+                            left1_tr.html(left1_list_html);
+
+                            return false;
+                        }
+
+
+
+
+                    }, "json");*/
+
+                    return false;
+                }
+
+            }, "json");
+
+        });
+        //理货 扫码获取右容器内容-测试
+        $("#right_c_s_c1").on("click", function() {
+            $.get("{:folder_url('dashboard/get_scan_code')}", {
+                type:2,scan_code:'scan_01'
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    console.log(data.data.content);
+                    //$("#right_container_code1").val(data.data.content);
+                    $("#right_container_code1").val('A000004021');//先写固定
+                    //获取容器内容列表
+                    get_container_item_list('A000004021','right1_tr','right_c1_id');//先写固定
+                    return false;
+                }
+
+            }, "json");
+        });
+
+
+
+        //获取容器物料列表
+        function get_container_item_list(content,tr_str,id_str){
+            var tr= $("#"+tr_str);
+            $.get("{:folder_url('dashboard/get_container_item_list')}", {
+                wh_c_numbering:content
+            },function (data1){
+
+                if(data1.code===0){
+                    Toastr.info(data1.msg);
+                }else if(data1.code===1){
+                    console.log(data1.data);
+                    var list = data1.data;
+                    var list_html ='';
+                    list.forEach(function(value,index){
+                        console.log(index,value);
+                        var id = index+1;
+                        //list_html = list_html+'<tr><td id="'+id_str+value.id+'"><input name="'+id_str+'s" id="'+id_str+'s" type="checkbox" value="'+value.id+'"></td><td>'+id+'</td><td>'+value.numbering+'</td><td>'+value.name+'</td><td>'+value.num+'</td><td>正常</td><td>1</td><td>'+value.measure_unit+'</td><td>1</td></tr>';
+                        list_html = list_html+'<tr><td id="'+id_str+value.id+'"><button type="button" class="btn btn-lg btn-primary btn-sm" onclick="del_container_item('+value.id+',\''+tr_str+'\',\''+id_str+'\');" >删除</button></td><td>'+id+'</td><td>'+value.numbering+'</td><td>'+value.name+'</td><td>'+value.num+'</td><td>正常</td><td>1</td><td>'+value.measure_unit+'</td><td>1</td></tr>';
+                    });
+
+                    tr.html(list_html);
+
+                    return false;
+                }
+
+
+
+
+            }, "json");
+        }
+
+
+
+        //转移物料点击
+        $("#transfer").on("click", function() {
+
+            if (confirm("请确定转移？")) {
+                // 用户点击了确认按钮
+                // 执行删除操作
+                var checkList = new Array();
+                $('input[name="left_c1_ids"]:checked').each(function(){
+                    checkList.push($(this).val());//向数组中添加元素
+                    /*var id = $(this).val();
+                    console.log(id);
+                    $("#left1_tr").remove('#left_c1_id'+id);*/
+                });
+                //Toastr.info(checkList);
+                var idstr=checkList.join(',');//将数组元素连接起来以构建一个字符串
+                //Toastr.info(idstr);
+                console.log('选择id');
+                console.log(idstr);
+                if($.isEmptyObject(idstr)){
+                    Toastr.info('未选择转移物料');
+                    return false;
+                }
+
+                var from_wh_c_numbering= $("#left_container_code1").val();
+                var to_wh_c_numbering= $("#right_container_code1").val();
+
+
+                //需要判断 来源 和 目标 容器是否存在
+                console.log('来源容器和目标容器');
+                console.log(from_wh_c_numbering);
+                console.log(to_wh_c_numbering);
+
+                if($.isEmptyObject(from_wh_c_numbering)){
+                    Toastr.info('来源容器为空');
+                    return false;
+                }
+                if($.isEmptyObject(to_wh_c_numbering)){
+                    Toastr.info('目标容器为空');
+                    return false;
+                }
+
+                $.get("{:folder_url('dashboard/move_item')}", {
+                    item_list:idstr,from_wh_c_numbering:from_wh_c_numbering,to_wh_c_numbering:to_wh_c_numbering,w_id:w_id,w_b_id:w_b_id
+                },function (data){
+
+                    console.log(data);
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                    }else if(data.code===1){
+                        //刷新左边和右边容器列表
+                        $("#left1_tr").html('');
+                        $("#right1_tr").html('');
+                        get_container_item_list(from_wh_c_numbering,'left1_tr','left_c1_id');
+                        get_container_item_list(to_wh_c_numbering,'right1_tr','right_c1_id');
+                        return false;
+                    }
+                }, "json");
+
+
+
+            } else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+
+
+        });
+
+        //呼叫容器列表
+        $("#left_call_container_1").on("click", function() {
+            var lift_call_container_list= $("#lift_call_container_list");
+            console.log('呼叫容器列表1');
+            $.get("{:folder_url('dashboard/get_container_list')}", {
+                
+            },function (data){
+
+                console.log(data);
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    //刷新左边和右边容器列表
+                    var list = data.data;
+                    var list_html ='';
+                    list_html = list_html+'<table class="table table-bordered">';
+                    list.forEach(function(value,index){
+                        var id = index+1;
+                        list_html = list_html+'<tr><td><input name="container_list_id" id="container_list_id" type="radio" value="'+value.numbering+'"></td><td>'+id+'</td><td>'+value.name+'</td><td>正常</td></tr>';
+                    });
+                    list_html = list_html+' </table>';
+
+                    lift_call_container_list.html(list_html);
+                    return false;
+                }
+            }, "json");
+
+        });
+
+        //确定呼叫容器
+        $("#left_call_container_submit").on("click", function() {
+            var left_from_w1_code = $("#left_from_w1_code").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+            if (confirm("请确定是否呼叫容器？")) {
+
+                var container_list_id = $("input[id='container_list_id']:checked").val();
+                
+
+                $.get("{:folder_url('dashboard/container_tote_outbound')}", {
+                    container_code:container_list_id,to_location_code:left_from_w1_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                },function (data){
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                    }else if(data.code===1){
+                        Toastr.info('容器出库任务已经提交成功，请等待容器到达');
+                        return false;
+                    }
+                }, "json");
+
+            } else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+
+        });
+
+        //呼叫容器列表
+        $("#left_call_container_2").on("click", function() {
+            var left_from_w1_code = $("#left_from_w1_code").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+            var lift_call_container_list_3= $("#lift_call_container_list_3");
+            console.log('呼叫容器列表2');
+            $.get("{:folder_url('dashboard/get_container_list')}", {
+                num_location_code:left_from_w1_code
+            },function (data){
+
+                console.log(data);
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    //刷新左边和右边容器列表
+                    var list = data.data;
+                    var list_html ='';
+                    list_html = list_html+'<table class="table table-bordered">';
+                    list.forEach(function(value,index){
+                        var id = index+1;
+                        list_html = list_html+'<tr><td><input name="container_list_id_3" id="container_list_id_3" type="radio" value="'+value.numbering+'"></td><td>'+id+'</td><td>'+value.name+'</td><td>正常</td></tr>';
+                    });
+                    list_html = list_html+' </table>';
+
+                    lift_call_container_list_3.html(list_html);
+                    return false;
+                }
+            }, "json");
+
+        });
+
+        //确定呼叫容器
+        $("#left_call_container_submit_2").on("click", function() {
+            var left_from_w1_code = $("#left_from_w1_code").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+            if (confirm("请确定是否呼叫容器？")) {
+
+                var container_list_id_3 = $("input[id='container_list_id_3']:checked").val();
+                
+
+
+                $.get("{:folder_url('dashboard/container_tote_outbound')}", {
+                    container_code:container_list_id_3,to_location_code:left_from_w1_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                },function (data){
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                    }else if(data.code===1){
+                        Toastr.info('容器出库任务已经提交成功，请等待容器到达');
+                        return false;
+                    }
+                }, "json");
+
+            } else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+
+        });
+
+        //呼叫容器列表-出库
+        $("#left_call_container_4").on("click", function() {
+            var left_from_w1_code = $("#left_from_pick1_code").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+            var lift_call_container_list_5= $("#lift_call_container_list_5");
+            var sortation_product_name = $('#sortation_product_name').val();
+            console.log('呼叫容器列表3');
+            $.get("{:folder_url('dashboard/get_container_list')}", {
+                product_name:sortation_product_name,num_location_code:left_from_w1_code,type:'outbound'
+            },function (data){
+
+                console.log(data);
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    lift_call_container_list_5.html('无可用库位');
+                }else if(data.code===1){
+                    //刷新左边和右边容器列表
+                    var list = Object.values(data.data);
+                    console.log(list);
+                    var list_html ='';
+                    list_html = list_html+'<table class="table table-bordered">';
+                    list.forEach(function(value,index){
+                        var id = index+1;
+                        list_html = list_html+'<tr><td><input name="container_list_id_4" id="container_list_id_4" type="radio" value="'+value.numbering+'"></td><td>'+id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                    });
+                    list_html = list_html+' </table>';
+
+                    lift_call_container_list_5.html(list_html);
+                    return false;
+                }
+            }, "json");
+
+        });
+
+        //确定呼叫容器-出库
+        $("#left_call_container_submit_4").on("click", function() {
+            var left_from_w1_code = $("#left_from_w1_code1").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+
+            if (confirm("请确定是否呼叫容器？")) {
+
+                var container_list_id_4 = $("input[id='container_list_id_4']:checked").val();
+                
+                //先模拟出库
+                // $("#sortation_container_id").val(container_list_id_4);
+                // $("#sortation_container_name").html('容器号：'+container_list_id_4);
+                // //模拟出库
+                // //获取容器内容
+                // var left3_td_1_num= $("#left3_td_1_num");
+                // $.get("{:folder_url('dashboard/get_container_item_list')}", {
+                //     wh_c_numbering:container_list_id_4
+                // },function (data1){
+                //     if(data1.code===0){
+                //         Toastr.info(data1.msg);
+                //     }else if(data1.code===1){
+                //         console.log(data1.data);
+                //         var list = data1.data;
+                //         var list_html ='<p>';
+                //         list.forEach(function(value,index){
+                //             console.log(index,value);
+                //             var id = index+1;
+                //             list_html = list_html+'<button type="button" class="btn btn-primary btn-sm" onclick="sortation_container_item('+value.id+');" >选择</button> '+id+'.货品编码:'+value.numbering+'|货品名称:'+value.name+'|数量:'+value.num+value.measure_unit+'<p>';
+                //         });
+                //         left3_td_1_num.html(list_html);
+                //             //return false;
+
+                //     }
+
+                // }, "json");
+                //$('#left_call_container_5').modal('hide');
+                //return false;
+
+             $.get("{:folder_url('dashboard/container_tote_outbound')}", {
+                    container_code:container_list_id_4,to_location_code:left_from_w1_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                },function (data){
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                    }else if(data.code===1){
+                        Toastr.info('容器出库任务已经提交成功，请等待容器到达');
+                        return false;
+                    }
+                }, "json");
+
+            } else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+
+        });
+
+        // 直接出库，不要选择
+         $("#container_outbound").on("click", function() {
+            var left_from_w1_code = $("#left_from_w1_code1").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+
+            if (confirm("请确定是否呼叫容器？")) {
+                $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+                    location_code:left_from_w1_code
+                },function (data){
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                        return false;
+                    }else if(data.code===1){
+                        w_id = data.data.w_id;
+                        w_b_id = data.data.id;
+                        console.log('w_id  :'+w_id);
+                        console.log('w_b_id  :'+w_b_id);
+
+                        var container_list_id_4 = $("#outbind_code").val();
+                
+                        $.get("{:folder_url('dashboard/container_tote_outbound')}", {
+                            container_code:container_list_id_4,to_location_code:left_from_w1_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                        },function (data){
+                            if(data.code===0){
+                                Toastr.info(data.msg);
+                            }else if(data.code===1){
+                                Toastr.info('容器出库任务已经提交成功，请等待容器到达');
+                                return false;
+                            }
+                        }, "json");
+
+
+                    }
+                }, "json");
+                
+
+            } else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+
+        });
+
+        //操作分拣
+        $("#sortation_select").on("click", function() {
+
+            //分拣容器编号
+            var sortation_container_id = $("#sortation_container_id").val();
+            //容器存储物料
+            var container_item_id = $("#container_item_id").val();
+            //操作数量
+            var left3_td_7_num = $("#left3_td_7_num").val();
+            var left3_td_6_num_max = $("#left3_td_6_num_max").val();
+            console.log('操作数量：'+left3_td_7_num);
+            console.log('剩余数量：'+left3_td_6_num_max);
+            if(left3_td_6_num_max-left3_td_7_num<0){
+                Toastr.info('操作数量大于剩余数量');
+                return false;
+            }
+            var left_w_b_id = $('#left_w_b_id').val();
+
+            var left3_z = $(':radio[name="left3_z"]:checked').val();//容量
+            console.log(left3_z);
+
+            //分拣添加
+            $.get("{:folder_url('dashboard/add_sortation')}", {
+                container_item_id:container_item_id,container_code:sortation_container_id,num:left3_td_7_num,proportion:left3_z,w_b_id:left_w_b_id
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    //任务id
+                    $('#sortation_task_id').val(data.data.id);
+                    $('#sortation_status').html(data.data.status_str);
+                    $('#sortation_status_id').val(data.data.status);
+                    //刷新分拣列表
+                    get_sortation_list(data.data.id,'left3_tr','left3_tr_id');
+                   /* $.get("{:folder_url('dashboard/get_sortation_list')}", {
+                        sortation_task_id:data.data
+                    },function (data){
+                        if(data.code===0){
+                            Toastr.info(data.msg);
+                        }else if(data.code===1){
+                            //刷新分拣列表
+
+
+                        }
+
+                    }, "json");*/
+
+                }
+
+            }, "json");
+
+
+
+
+        });
+
+        //结束分拣
+        $("#sortation_end").on("click", function() {
+            
+            //分拣编号
+            var sortation_task_id = $("#sortation_task_id").val();
+            if(sortation_task_id == ''){
+                Toastr.info('当前无分拣任务');
+                return false;
+            }
+            if (confirm("请确定是结束本次分拣？")) {
+                $.get("{:folder_url('dashboard/status_sortation')}", {
+                    sortation_task_id:sortation_task_id,status:3
+                },function (data){
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                    }else if(data.code===1){
+                        //任务id
+                        // $('#sortation_task_id').val(data.data.id);
+                        // $('#sortation_status').html(data.data.status_str);
+                        // $('#sortation_status_id').val(data.data.status);
+                        $('#sortation_task_id').val('');
+                        $('#sortation_status').html('');
+                        $('#sortation_status_id').val('');
+                        //刷新分拣列表
+                        var left_w_b_id = $('#left_w_b_id').val();
+                        //get_sortation_list(data.data.id,'left3_tr','left3_tr_id');
+                        let code = $('#outbind_code').val();
+
+                        $("#left3_td_2_num").html('');
+                        $("#left3_td_3_num").html('');
+                        $("#left3_td_4_num").html('');
+                        $("#left3_td_6_num").html('');
+                        $('#left3_td_6_num_max').val('');
+                        $('#left3_td_7_num').val(1); 
+                        $("#container_item_id").val('');
+
+
+                        get_outbind_list(code);
+                        get_sortation_list1(left_w_b_id,'5','left3_tr','left3_tr_id');
+
+
+                    }
+
+                }, "json");
+
+            }else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+
+
+
+
+        });
+
+        //刷新
+        $("#sortation_restart").on("click", function() {
+            let code = $('#outbind_code').val();
+            get_outbind_list(code);
+            var left_w_b_id = $('#left_w_b_id').val();
+            get_sortation_list1(left_w_b_id,'5','left3_tr','left3_tr_id');
+
+
+        });
+
+        //容器回库 tab1 左边
+        $("#left_tallying_container_tote_inbound1").on("click", function() {
+
+            if (confirm("请确定是容器回库？")) {
+                var left_container_code1 = $("#left_container_code1").val();
+                var left_from_w1_code = $("#left_from_w1_code").val();
+
+                if($.isEmptyObject(left_container_code1)){
+                    Toastr.info('回库容器编号为空');
+                    return false;
+                }
+                if($.isEmptyObject(left_from_w1_code)){
+                    Toastr.info('工作站编号为空');
+                    return false;
+                }
+
+                //获取可入库库位
+                $.get("{:folder_url('dashboard/get_location_code')}", {
+                    w_id:w_id,w_b_id:w_b_id,cid:cid
+                },function (data){
+                    if(data.code===0){
+                        Toastr.info(data.msg);
+                    }else if(data.code===1){
+                        //Toastr.info('容入库任务已经提交');
+                        var location_code =data.data.real_location;
+                        console.log('目标库位:'+data.data.real_location);
+
+                        $.get("{:folder_url('dashboard/container_tote_inbound')}", {
+                            container_code:left_container_code1,from_location_code:left_from_w1_code,location_code:location_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                        },function (data){
+                            if(data.code===0){
+                                Toastr.info(data.msg);
+                            }else if(data.code===1){
+                                Toastr.info('容入库任务已经提交');
+                                return false;
+                            }
+                        }, "json");
+
+                        return false;
+                    }
+                }, "json");
+
+
+            }else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }
+        });
+        //容器回库 tab1 左边 空托
+        $("#left_container_reclaim1").on("click", function() {
+
+            var left_container_code1 = $("#left_container_code1").val();
+            var left_from_w1_code = $("#left_from_w1_code").val();
+
+            container_tote_inbound(left_container_code1,left_from_w1_code);
+        });
+        //容器回库 tab1 右边
+        $("#left_tallying_container_tote_inbound1").on("click", function() {
+
+            var right_container_code1 = $("#right_container_code1").val();
+            var left_from_w1_code = $("#left_from_w1_code").val();
+
+            container_tote_inbound(right_container_code1,left_from_w1_code);
+        });
+        //容器回库 tab1 右边 空托
+        $("#right_container_reclaim").on("click", function() {
+
+            var right_container_code1 = $("#right_container_code1").val();
+            var left_from_w1_code = $("#left_from_w1_code").val();
+
+            container_tote_inbound(right_container_code1,left_from_w1_code);
+        });
+
+        //tab2 组盘上架
+        $("#left2_container_combo_inbound").on("click", function() {
+
+            var left_container_code2 = $("#left_container_code2").val();
+            var left_from_w1_code = $("#left_from_w1_code").val();
+            container_tote_inbound(left_container_code2,left_from_w1_code);
+        });
+
+        //入库上架
+        $("#left2_container_combo_inbound_in").on("click", function() {
+            
+            var left_container_code2_title1 = $("#left_container_code2_title1").val();
+            var left_from_w1_code = $("#left_from_w1_code").val();
+            
+            container_tote_inbound(left_container_code2_title1,left_from_w1_code);
+        });
+
+        //出库-回库
+        $("#sortation_container_combo_inbound_in").on("click", function() {
+
+            var sortation_container_id = $("#sortation_container_id").val();
+            var left_from_w1_code = $("#left_from_w1_code1").val();
+            container_tote_inbound(sortation_container_id,left_from_w1_code);
+        });
+
+
+        //容器添加
+        $("#add_container_code").on("click", function() {
+            var set_container_code1 = $("#set_container_code1").val();
+            $.get("{:folder_url('dashboard/add_container')}", {
+                container_code:set_container_code1,cid:cid
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+
+                    return false;
+                }
+
+            }, "json");
+        });
+
+        //容器删除
+        $("#del_container_code").on("click", function() {
+            var set_container_code1 = $("#set_container_code1").val();
+            $.get("{:folder_url('dashboard/remove_container')}", {
+                container_code:set_container_code1,cid:cid
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    return false;
+                }else if(data.code===1){
+
+                    Toastr.info(data.msg);
+                    return false;
+                }
+
+            }, "json");
+        });
+
+        
+        //input 焦点控制
+        $('#left_from_w1_code').blur(function(){
+            
+            var code =  $('#left_from_w1_code').val();
+            if(code.length < 5){
+                Toastr.info('字数太少了，多输入几个吧');
+                return false;
+            }
+            get_workbench_bit(code);
+
+        });
+
+        $('#left_container_code1').blur(function(){
+            if($(this).val().length < 5){
+                Toastr.info('字数太少了，多输入几个吧1');
+                return false;
+            }
+            var code =  $('#left_container_code1').val();
+            get_container_item_list(code,'left1_tr','left_c1_id');
+        });
+
+        $('#right_container_code1').blur(function(){
+            if($(this).val().length < 5){
+                Toastr.info('字数太少了，多输入几个吧2');
+                return false;
+            }
+            var code =  $('#right_container_code1').val();
+            get_container_item_list(code,'right1_tr','right_c1_id');
+
+        });
+
+        //容器/物料/工作位 -tab2
+        $('#left_from_c1_code').blur(function(){
+            if($(this).val().length < 5){
+                Toastr.info('字数太少了，多输入几个吧3');
+                return false;
+            }
+            var code =  $('#left_from_c1_code').val();
+            $.get("{:folder_url('dashboard/code_to_info')}", {
+                code:code,type:'workbench'
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+
+                    var type = data.data.type;
+                    switch (type) {
+                        case 'workbench':
+                            console.log('a11');
+                            //更新工作位
+                            up_workbench_bit(data.data.info.wh_l_numbering,data.data.info.w_id,data.data.info.w_b_id);
+
+                            break;
+                        case 'container':
+                            console.log('a12');
+                            $('#left_container_code2').val(data.data.info.numbering);
+                            $('#left_container_code2_title').html(data.data.info.numbering);
+                            get_container_item_list(data.data.info.numbering,'left2_tr','left_c2_id');
+                            break;
+                        case 'product':
+                            console.log('a13');
+                            $('#product_id_1').val(data.data.info.id);
+                            $('#left2_td_1').html(data.data.info.numbering);
+                            $('#left2_td_2').html(data.data.info.name);
+                            $('#left2_td_3').html(data.data.info.spec);
+                            $('#left2_td_4').html('1');//批次暂不考虑
+                            $('#left2_td_5').html('正常');
+                            $('#left2_td_7').html('1');
+
+                            break;
+                    }
+
+                    return false;
+                }
+
+            }, "json");
+
+
+
+
+        });
+
+        //入库容器获取物料列表
+        $('#left_container_code2_title1').blur(function(){
+            
+            var code =  $('#left_container_code2_title1').val();
+            console.log(code.length);
+            
+            if(code.length < 5){
+                Toastr.info('字数太少了，多输入几个吧5');
+                return false;
+            }
+            console.log(code);
+            left_container_code2_title1_blur(code)
+        });
+
+        
+
+        // 根据物料编码查询商品信息-入库组盘
+        $('#product_code').blur(function(){
+            console.log($(this).val());
+            if($(this).val().length < 2){
+                Toastr.info('字数太少了，多输入几个吧7');
+                return false;
+            }
+
+            var product_code = $('#product_code').val();
+
+            $.get("{:folder_url('dashboard/get_product_info')}", {
+                product_name:product_code
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    $('#product_id_1').val('');
+                    $('#left2_td_6_name').val('');
+                    $('#product_code').val('');
+                    $('#left2_td_3').html('');
+                }else if(data.code===1){
+                    $('#product_id_1').val(data.data.id);
+                    $('#left2_td_6_name').val(data.data.name);
+                    $('#left2_td_3').html(data.data.spec);
+                     return false;
+                }
+
+            }, "json");
+        })
+
+
+        //添加商品
+        $('#left2_td_6_name').blur(function(){
+            if($(this).val().length < 2){
+                Toastr.info('字数太少了，多输入几个吧7');
+                return false;
+            }
+
+            var left2_td_6_name = $('#left2_td_6_name').val();
+
+            $.get("{:folder_url('dashboard/get_product_info')}", {
+                product_name:left2_td_6_name
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    //Toastr.info(data.msg);
+                    // if (confirm("商品不存在，是否新建？")) {
+                    //     $.get("{:folder_url('dashboard/add_product')}", {
+                    //         product_name:left2_td_6_name
+                    //     },function (data){
+                    //         if(data.code===0){
+                    //             Toastr.info(data.msg);
+                    //         }else if(data.code===1){
+                    //             Toastr.info('商品添加成功');
+                    //             $('#product_id_1').val(data.data.id);
+                    //             $('#left2_td_1').html(data.data.numbering);
+                    //             $('#left2_td_3').html(data.data.spec);
+                                //  //get_container_item_list(data.data.info.numbering,'left2_tr','left_c2_id');
+                    //             return false;
+                    //         }
+
+                    //     }, "json");
+
+                    // }else{
+
+                    // }
+
+                }else if(data.code===1){
+                    //
+                    $('#product_id_1').val(data.data.id);
+                    // $('#left2_td_1').html(data.data.numbering);
+                    $('#product_code').val(data.data.numbering);
+                    $('#left2_td_3').html(data.data.spec);
+                     return false;
+                }
+
+            }, "json");
+
+
+        });
+
+        $('#left_from_pick1_code').blur(function(){
+            if($(this).val().length < 5){
+                Toastr.info('字数太少了，多输入几个吧4');
+                return false;
+            }
+             var code =  $('#left_from_c1_code').val();
+            $.get("{:folder_url('dashboard/code_to_info')}", {
+                code:code,type:'workbench'
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+
+                    var type = data.data.type;
+                    switch (type) {
+                        case 'workbench':
+                            $("#left_from_w1_code1").val(data.data.info.wh_l_numbering);
+                            $("#left_w_s_c3_ret").html(data.data.info.wh_l_numbering);
+                            $('#left_from_pick1_code').val(data.data.info.wh_l_numbering);
+                            break;
+                    }
+
+                    return false;
+                }
+
+            }, "json");
+
+        });
+
+        //物料筛选
+        $('#sortation_product_name').blur(function(){
+            sortation_product_name_function();
+        });
+        
+        //筛选物料校验-不用
+        $('#left3_td_6_name').blur(function(){
+            if($(this).val().length < 2){
+                Toastr.info('字数太少了，多输入几个吧7');
+                return false;
+            }
+            var left3_td_6_name = $('#left3_td_6_name').val();
+            var sortation_container_id = $('#sortation_container_id').val();
+
+            if($.isEmptyObject(sortation_container_id)){
+                Toastr.info('容器编号为空，请先呼叫容器出库再使用此功能');
+                return false;
+            }
+            console.log('容器物料校验');
+            $.get("{:folder_url('dashboard/get_product_container')}", {
+                product_name:left3_td_6_name,container_code:sortation_container_id
+            },function (data){
+                console.log(data);
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    console.log(data.data.spec);
+                    $('#left3_td_3_num').html(data.data.spec);
+                    $('#left3_td_4_num').html(data.data.batch);
+                    $('#left3_td_6_num').html(data.data.product_num);
+
+
+            }
+
+            }, "json");
+        });
+
+        //密集架关闭
+        $('#move_off').click(function(){
+            $.get("{:folder_url('dashboard/move_to_off')}", {
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    Toastr.info(data.msg);
+                    return false;
+                }
+
+            }, "json");
+        });
+        //密集架关闭1
+        $('#move_off1').click(function(){
+            $.get("{:folder_url('dashboard/move_to_off')}", {
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    Toastr.info(data.msg);
+                    return false;
+                }
+
+            }, "json");
+        });
+
+        // 组盘商品数量
+        $('#left2_td_6_num').on('input blur', function() {
+            let val = parseInt($(this).val(), 10);
+            if (isNaN(val) || val < 1) {
+                $(this).val(1);
+                Toastr.info('组盘数量必须大于0');
+            }
+        });
+        // 分拣商品数量
+        $('#left3_td_7_num').on('input blur', function() {
+            let val = parseInt($(this).val(), 10);
+            if (isNaN(val) || val < 1) {
+                $(this).val(1);
+                Toastr.info('分拣数量必须大于0');
+            }
+        });
+
+
+        //入库组盘
+        $('#left2_container_combo').click(function(){
+
+            var left2_z = $(':radio[name="left2_z"]:checked').val();//容量
+            console.log(left2_z);
+
+            var left_container_code2 = $('#left_container_code2').val();
+            var product_id_1 =  $('#product_id_1').val();
+
+            if($.isEmptyObject(product_id_1)){
+                Toastr.info('商品id不能为空');
+                return false;
+            }
+            if($.isEmptyObject(left_container_code2)){
+                Toastr.info('容器编号不能为空');
+                return false;
+            }
+
+
+            var product_num = $('#left2_td_6_num').val();//理货数
+
+            $.get("{:folder_url('dashboard/container_in_item')}", {
+                wh_c_numbering:left_container_code2,product_id:product_id_1,proportion:left2_z,product_num:product_num
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    //刷新列表
+                    get_container_item_list(data.data,'left2_tr','left_c2_id');
+                    return false;
+                }
+
+            }, "json");
+
+
+        });
+
+
+
+    });
+    
+    //扫码枪
+    var char = "";    //记录扫描枪输入的内容
+    var lastTime=null;//上次输入的时间
+    var nextTime=null;//这次输入的时间
+    var lastCode=null;//上次输入的键值（接收到的为ASCII值）
+    var nextCode=null;//这次输入的键值（接收到的为ASCII值）
+    $(document).keydown(function(event){
+        nextTime = new Date().getTime();//获取当前键入的时间
+        //判断是否输入了回车按钮，并确认是扫描枪键入的值
+        if (event.keyCode === 13 && char !== "" && nextTime - lastTime <= 30){
+            //把监听到的数据显示在我的文本框上
+            //$("input[name='good_id']").val(char);
+            /*if("input[name='left_container_code1'].is(:checked)"){
+                $("input[name='left_container_code1']").val(char);
+                get_container_item_list(char,'left1_tr','left_c1_id');
+            }
+            if("input[name='right_container_code1'].is(:checked)"){
+                $("input[name='right_container_code1']").val(char);
+                get_container_item_list(char,'right1_tr','right_c1_id');
+            }
+
+            if("input[name='left_from_w1_code'].is(:checked)"){
+                $("input[name='left_from_w1_code']").val(char);
+                up_workbench_bit(char)
+                //get_container_item_list(char,'right1_tr','right_c1_id');
+            }*/
+            var anchor = $("#anchor").val();//页面锚点
+            console.log(char);
+            console.log(anchor);
+
+            $.get("{:folder_url('dashboard/up_scan_code')}", {
+                code:char,anchor:anchor
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    //Toastr.info(data.data.type);
+                    console.log(data.data.type);
+                    //工作位
+                    if(data.data.type=='workbench'){
+                        $("#left_from_w1_code").val('');
+                       /* $("#left_from_w2_code").val('');
+                        $("#left_from_w3_code").val('');*/
+                        up_workbench_bit(data.data.info.wh_l_numbering,data.data.info.w_id,data.data.info.w_b_id);
+
+                        switch (anchor) {
+                            case '#three':
+                                console.log('11');
+                                setTimeout(function(){
+                                    $("#left_container_code1").focus();
+                                }, 50);
+
+
+                                break;
+                            case '#five':
+                                console.log('12');
+                                break;
+                            case '#six':
+                                console.log('13');
+                                break;
+                        }
+
+                    }
+                    //容器
+                    if(data.data.type=='container'){
+                        switch (anchor) {
+                            case '#three':
+                                console.log('21');
+                                var focusedElement = $("input:focus").attr("id");
+                                console.log(focusedElement);
+                                if(focusedElement==='left_container_code1'){
+                                    $("#left_container_code1").val(data.data.info.numbering);
+                                    get_container_item_list(data.data.info.numbering,'left1_tr','left_c1_id');
+                                    setTimeout(function(){
+                                        $("#right_container_code1").focus();
+                                    }, 50);
+                                }
+                                if(focusedElement==='right_container_code1'){
+                                    $("#right_container_code1").val(data.data.info.numbering);
+                                    get_container_item_list(data.data.info.numbering,'right1_tr','right_c1_id');
+                                    setTimeout(function(){
+                                        $("#left_container_code1").focus();
+                                    }, 50);
+                                }
+
+
+                                break;
+                            case '#five':
+                                console.log('22');
+                                $('#left_from_c1_code').val('');
+                                $('#left_container_code2').val(data.data.info.numbering);
+                                $('#left_container_code2_title').html(data.data.info.numbering);
+
+                                break;
+                            case '#six':
+                                console.log('33');
+                                break;
+                        }
+                    }
+                    //物料
+                    if(data.data.type=='product'){
+                        switch (anchor) {
+                            case '#three':
+                                console.log('111');
+
+
+                                break;
+                            case '#five':
+                                $('#left_from_c1_code').val('');
+                                $('#product_id_1').val(data.data.info.id);//商品id
+                                $('#left2_td_1').html(data.data.info.numbering);
+                                $('#left2_td_2').html(data.data.info.name);
+                                $('#left2_td_3').html(data.data.info.spec);
+                                $('#left2_td_4').html('1');//批次暂不考虑
+                                $('#left2_td_5').html('正常');
+                                $('#left2_td_7').html('1');
+                                console.log('222');
+                                break;
+                            case '#six':
+                                console.log('333');
+                                break;
+                        }
+
+                    }
+                    return false;
+                }
+
+            }, "json");
+
+
+            //清空数值，以便下一次扫描
+            char = "";
+            lastCode = null;
+            lastTime = null;
+        }else {
+            //获取键入的键值
+            nextCode = event.keyCode;
+            //如果是第一个字母你可以进行一些代码增强，我这里并没有处理，直接转换了
+            if(lastCode == null && lastTime == null){
+                //初始字母
+                char = String.fromCharCode(nextCode);
+                //写入你要增强的代码。。。
+
+                //判断是否是扫描枪键入的值
+            }else if(lastCode != null&&lastTime!= null && nextTime - lastTime <= 30){
+                //键入的值为ASCII码，要获取对应得值，需要转换一下
+                char += String.fromCharCode(nextCode);//存到char中，拼接上次的结果
+            } else{
+                //判断为手动输入，不做任何处理，数据保持为null即可
+                // Toastr.info("suck");
+                char = "";
+                lastTime=null;
+                nextTime=null;
+                lastCode=null;
+                nextCode=null;
+            }
+            //lastCode、lastTime为中间变量，存储数据，让nextCode与nextTime可以存新数据
+            //nextCode与nextTime要存储新键入按钮的信息
+            lastCode = nextCode;
+            lastTime = nextTime;
+        }
+
+    });
+
+    //物料关联删除
+    function del_container_item(container_item_id,tr_str,id_str){
+        //Toastr.info('删除'+id);
+        $.get("{:folder_url('dashboard/container_out_item')}", {
+            container_item_id:container_item_id
+        },function (data){
+
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+
+                Toastr.info(data.msg);
+                get_container_item_list(data.data.numbering,tr_str,id_str);
+
+                return false;
+
+            }
+
+        }, "json");
+    }
+
+    //拣货物品删除
+    function del_sortation_item(sortation_task_item_id,tr_str,id_str) {
+
+        $.get("{:folder_url('dashboard/del_sortation')}", {
+            sortation_task_item_id:sortation_task_item_id
+        },function (data1){
+            if(data1.code===0){
+                Toastr.info(data1.msg);
+            }else if(data1.code===1){
+                $('#sortation_task_id').val(data1.data.sortation_task_id);
+                get_sortation_list(data1.data.sortation_task_id,'left3_tr','left3_tr_id')
+
+            }
+        }, "json");
+
+    }
+
+    //获取容器物料列表
+    function get_container_item_list(content,tr_str,id_str){
+        var tr= $("#"+tr_str);
+        $.get("{:folder_url('dashboard/get_container_item_list')}", {
+            wh_c_numbering:content
+        },function (data1){
+
+            if(data1.code===0){
+                Toastr.info(data1.msg);
+            }else if(data1.code===1){
+                console.log(data1.data);
+                var list = data1.data;
+                var list_html ='';
+                list.forEach(function(value,index){
+                    console.log(index,value);
+                    var id = index+1;
+                    //list_html = list_html+'<tr><td id="'+id_str+value.id+'"><input name="'+id_str+'s" id="'+id_str+'s" type="checkbox" value="'+value.id+'"></td><td>'+id+'</td><td>'+value.numbering+'</td><td>'+value.name+'</td><td>'+value.num+'</td><td>正常</td><td>1</td><td>'+value.measure_unit+'</td><td>1</td></tr>';
+					 list_html = list_html+'<tr><td id="'+id_str+value.id+'"><button type="button" class="btn btn-lg btn-primary btn-sm" onclick="del_container_item('+value.id+',\''+tr_str+'\',\''+id_str+'\');" >删除</button></td><td>'+id+'</td><td>'+value.numbering+'</td><td>'+value.name+'</td><td>'+value.num+'</td><td>正常</td><td>1</td><td>'+value.measure_unit+'</td><td>1</td></tr>';
+                });
+
+                tr.html(list_html);
+
+                return false;
+            }
+
+
+
+
+        }, "json");
+    }
+
+    //更新工作位信息
+    function up_workbench_bit(content,w_id,w_b_id) {
+        $.get("{:folder_url('dashboard/set_scan_code')}", {
+            content:content,w_id:w_id,w_b_id:w_b_id
+        },function (data){
+
+        }, "json");
+       
+        $("#left_w_s_c1_ret").html(content);
+        $("#left_w_s_c2_ret").html(content);
+        // $("#left_w_s_c3_ret").html(content);
+        $("#left_from_w1_code").val(content);
+        // $("#left_from_pick1_code").val(content);
+        $('#left_from_c1_code').val(content);
+        
+        /*$("#left_from_w2_code").val(content);
+        $("#left_from_w3_code").val(content);*/
+        //工作位id 和 工作站id
+        $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+            location_code:content
+        },function (data){
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                w_id = data.data.w_id;
+                w_b_id = data.data.id;
+                $("#left_w_id").val(data.data.w_id);
+                $("#left_w_b_id").val(data.data.id);
+                return false;
+            }
+        }, "json");
+
+
+    }
+
+    //获取工资位
+    function get_workbench_bit(content) {
+
+        $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+            location_code:content
+        },function (data){
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                w_id = data.data.w_id;
+                w_b_id = data.data.id;
+                $("#left_w_id").val(data.data.w_id);
+                $("#left_w_b_id").val(data.data.id);
+                return false;
+            }
+        }, "json");
+    }
+
+    //容器物品选择-出库
+    function sortation_container_item(id){
+        var container_item_id = id;
+        $.get("{:folder_url('dashboard/get_container_item')}", {
+            container_item_id:container_item_id
+        },function (data){
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+
+                $("#left3_td_2_num").html(data.data.product_name);
+                $("#left3_td_3_num").html(data.data.spec);
+                $("#left3_td_4_num").html(data.data.batch);
+                $("#left3_td_6_num").html(data.data.product_num);
+                $('#left3_td_6_num_max').val(data.data.product_num);
+                $("#container_item_id").val(container_item_id);
+
+
+                return false;
+            }
+
+
+
+
+        }, "json");
+
+    }
+    function del_sortation_container_item(id){
+        var container_item_id = id;
+        let code = $('#outbind_code').val().trim();
+        if(code.length!=8){
+            Toastr.info('请输入正确的容器编码');
+            return false;
+        }
+        if (confirm("确定删除吗")){
+            $.get("{:folder_url('dashboard/del_sortation_container_item')}", {
+            container_item_id:container_item_id
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    Toastr.info(data.msg);
+                    get_outbind_list(code);
+                    return false;
+                }
+            }, "json");
+        }
+        
+
+    }
+
+    //容器回库
+   function container_tote_inbound(container_code,w1_code) {
+
+        if (confirm("请确定是容器回库？")) {
+            /*var left_container_code1 = $("#left_container_code1").val();
+            var left_from_w1_code = $("#left_from_w1_code").val();*/
+
+            var left_container_code1 = container_code;
+            var left_from_w1_code =w1_code;
+
+            if($.isEmptyObject(left_container_code1)){
+                Toastr.info('回库容器编号为空');
+                return false;
+            }
+            if($.isEmptyObject(left_from_w1_code)){
+                Toastr.info('工作站编号为空');
+                return false;
+            }
+            $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+                location_code:left_from_w1_code
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    return false;
+                }else if(data.code===1){
+                    w_id = data.data.w_id;
+                    w_b_id = data.data.id;
+                    console.log('w_id  :'+w_id);
+                    console.log('w_b_id  :'+w_b_id);
+
+
+                    //获取可入库库位
+                    $.get("{:folder_url('dashboard/get_location_code')}", {
+                        w_id:w_id,w_b_id:w_b_id,cid:cid
+                    },function (data){
+                        if(data.code===0){
+                            Toastr.info(data.msg);
+                        }else if(data.code===1){
+                            //Toastr.info('容入库任务已经提交');
+                            var location_code =data.data.real_location;
+                            console.log('目标库位:'+data.data.real_location);
+
+                            $.get("{:folder_url('dashboard/container_tote_inbound')}", {
+                                container_code:left_container_code1,from_location_code:left_from_w1_code,location_code:location_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                            },function (data){
+                                if(data.code===0){
+                                    Toastr.info(data.msg);
+                                }else if(data.code===1){
+                                    //清空入库列表
+                                    var tr= $("#left2_tr");
+                                    tr.html("<tr></tr>");
+                                    Toastr.info('容入库任务已经提交');
+                                    return false;
+                                }
+                            }, "json");
+
+                            return false;
+                        }
+                    }, "json");
+
+
+
+
+
+                }
+            }, "json");
+
+            
+
+
+        }else {
+            // 用户点击了取消按钮
+            // 不执行任何操作
+
+        }
+    };
+
+    //获取分拣列表
+    function get_sortation_list(id,tr_str,id_str){
+        var tr= $("#"+tr_str);
+        console.log('分拣列表刷新');
+        $.get("{:folder_url('dashboard/get_sortation_list')}", {
+            sortation_task_id:id
+        },function (data){
+            if(data.code===0){
+                // 后端没有会提示
+                Toastr.info(data.msg);
+                tr.html('<tr></tr>>');
+            }else if(data.code===1){
+                //刷新分拣列表
+                console.log(data.data);
+                var list = data.data;
+                var list_html ='';
+                list.forEach(function(value,index){
+                    console.log(index,value);
+                    var id = index+1;
+                    list_html = list_html+'<tr><td id="'+id_str+value.id+'"><button type="button" class="btn btn-lg btn-primary btn-sm" onclick="del_sortation_item('+value.id+',\''+tr_str+'\',\''+id_str+'\');" >删除</button></td><td>'+id+'</td><td>'+value.wh_c_numbering	+'</td><td>'+value.product_name+'</td><td>正常</td><td>'+value.product_num+'</td></tr>';
+                });
+
+                tr.html(list_html);
+
+                return false;
+
+
+            }
+
+        }, "json");
+
+    }
+    //获取分拣列表-2
+    function get_sortation_list1(w_b_id,status,tr_str,id_str){
+        var tr= $("#"+tr_str);
+        console.log('分拣列表刷新1');
+        $.get("{:folder_url('dashboard/get_sortation_list')}", {
+            w_b_id:w_b_id,status:status
+        },function (data){
+            if(data.code===0){
+               // Toastr.info(data.msg);
+                tr.html('<tr></tr>>');
+            }else if(data.code===1){
+                //刷新分拣列表
+                console.log(data.data);
+                var list = data.data;
+                var list_html ='';
+                list.forEach(function(value,index){
+                    console.log(index,value);
+                    var id = index+1;
+                    list_html = list_html+'<tr><td id="'+id_str+value.id+'"><button type="button" class="btn btn-lg btn-primary btn-sm" onclick="del_sortation_item('+value.id+',\''+tr_str+'\',\''+id_str+'\');" >删除</button></td><td>'+id+'</td><td>'+value.wh_c_numbering	+'</td><td>'+value.product_name+'</td><td>正常</td><td>'+value.product_num+'</td></tr>';
+                });
+
+                tr.html(list_html);
+
+                return false;
+
+
+            }
+
+        }, "json");
+
+    }
+
+    //工作位选择-入库
+    $("#left_from_c1_code_s").on("click", function() {
+        var left_from_c1_code_s_list= $("#left_from_c1_code_s_list");
+        console.log('选择工作位-入库');
+        $.get("{:folder_url('dashboard/get_workbench_bit_list')}", {
+
+        },function (data){
+
+            console.log(data);
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = data.data;
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    let name = value.real_location;
+                    if(value.id==1)name = name+'——(金属工具区)';
+                    if(value.id==2){
+                        return;
+                        name = name+'——(金属工具区)';
+                    }
+                    if(value.id==3)name = name+'——(绝缘工具区)';
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="workbench_bit_list_id" id="workbench_bit_list_id" type="radio" value="'+value.real_location+'"></td><td>'+id+'</td><td>'+name+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                left_from_c1_code_s_list.html(list_html);
+                return false;
+            }
+        }, "json");
+
+    });
+
+    //确定选择工作位-入库
+    $("#left_from_c1_code_s_container_submit").on("click", function() {
+
+        layer.confirm('请确定选择工作位？', {
+                btn: ['确定', '取消'] // 按钮
+            }, function (index) {
+
+            var workbench_bit_list_id = $("input[id='workbench_bit_list_id']:checked").val();
+
+
+            $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+                location_code:workbench_bit_list_id
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    up_workbench_bit(workbench_bit_list_id,data.data.w_id,data.data.id);
+                    Toastr.info('选择工作位成功');
+                    w_id = data.data.w_id;
+                    w_b_id = data.data.id;
+                    $("#left_w_id").val(data.data.w_id);
+                    $("#left_w_b_id").val(data.data.id);
+                    //$("#left_from_c1_code_s_container").hide();
+                    $('#left_from_c1_code_s_container').modal('hide');
+                    $('#left_from_c1_code').val(workbench_bit_list_id);
+                    // $("#left_from_pick1_code").val(workbench_bit_list_id);
+                    
+                    $('#left_from_c1_code').val(workbench_bit_list_id);
+                    if(workbench_bit_list_id == '0003440XX0005000'){
+                        $('#left2_container_combo_inbound_in').hide();
+                        $('#inbound_container_button').show();
+                    }else{
+                        $('#left2_container_combo_inbound_in').show();
+                        $('#inbound_container_button').hide();
+                    }
+
+                    return false;
+                }
+            }, "json");
+
+            Layer.close(index);
+        }, function () {});
+        return false;
+    });
+
+    //工作位选择-出库
+    $("#left_from_c2_code_s").on("click", function() {
+        var left_from_c2_code_s_list= $("#left_from_c2_code_s_list");
+        console.log('选择工作位-入库');
+        $.get("{:folder_url('dashboard/get_workbench_bit_list')}", {
+
+        },function (data){
+
+            console.log(data);
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = data.data;
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    let name = value.real_location;
+                    if(value.id==1){
+                        return
+                        name = name+'——(金属工具区)';
+                    }
+                    if(value.id==2)name = name+'——(金属工具区)';
+                    if(value.id==3)name = name+'——(绝缘工具区)';
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="workbench_bit_list_id" id="workbench_bit_list_id" type="radio" value="'+value.real_location+'"></td><td>'+id+'</td><td>'+name+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                left_from_c2_code_s_list.html(list_html);
+                return false;
+            }
+        }, "json");
+
+    });
+
+    //确定选择工作位-出库
+    $("#left_from_c2_code_s_container_submit").on("click", function() {
+        layer.confirm('请确定选择工作位？', {
+                btn: ['确定', '取消'] // 按钮
+            }, function (index) {
+
+            var workbench_bit_list_id = $("input[id='workbench_bit_list_id']:checked").val();
+
+
+            $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+                location_code:workbench_bit_list_id
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    // up_workbench_bit(workbench_bit_list_id,data.data.w_id,data.data.id);
+                    Toastr.info('选择工作位成功');
+                    w_id = data.data.w_id;
+                    w_b_id = data.data.id;
+                    $("#left_w_id").val(data.data.w_id);
+                    $("#left_w_b_id").val(data.data.id);
+                    //$("#left_from_c1_code_s_container").hide();
+                    $('#left_from_c2_code_s_container').modal('hide');
+                    $("#left_from_w1_code1").val(workbench_bit_list_id);
+                    $("#left_w_s_c3_ret").html(workbench_bit_list_id);
+                    $('#left_from_pick1_code').val(workbench_bit_list_id);
+                    
+                    // $('#left_from_c1_code').val(workbench_bit_list_id);
+                    return false;
+                }
+            }, "json");
+
+            
+            Layer.close(index);
+        }, function () {});
+        return false;
+    });
+
+    // 出库，选择料箱
+    $("#outbind_code_choose_button").on("click", function() {
+        var left_from_w1_code = '';
+        left_from_w1_code = $("#left_from_pick1_code").val();
+        
+       if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        var inbound_choose_container_list= $("#outbind_code_choose_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            num_location_code:left_from_w1_code,type:'outbound'
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                Toastr.info(data.msg);
+                inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = data.data;
+                if(list.length==0){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="outbind_choose_container_id" id="outbind_choose_container_id" type="radio" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+    })
+    $('#outbind_code_product_name').blur(function(){
+        outbind_code_product_name();
+
+    })     
+    function outbind_code_product_name(){
+        let name = $('#outbind_code_product_name').val();
+        let left_from_w1_code = $("#left_from_pick1_code").val();
+        var inbound_choose_container_list= $("#outbind_code_choose_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            product_name:name,num_location_code:left_from_w1_code,type:'outbound'
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                Toastr.info(data.msg);
+                inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = Object.values(data.data);
+                console.log(list);
+                if(list.length==0){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="outbind_choose_container_id" id="outbind_choose_container_id" type="radio" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+    }
+    $("#outbind_code_choose_submit").on("click", function(){
+        var left_from_c1_code = $("#left_from_pick1_code").val();
+        console.log(left_from_w1_code);
+        if(left_from_c1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        const input = document.getElementById('outbind_code');
+        
+        
+        var container_code = $("input[id='outbind_choose_container_id']:checked").val();
+        // 模拟输入与失去焦点
+        // $('#left_container_code2_title1').focus();
+        // $('#left_container_code2_title1').val(container_code);
+        // $('#left_container_code2_title1').blur();
+        
+        if (input) {
+            // 先聚焦
+            input.focus();
+            
+            // 设置值
+            input.value = container_code;
+            
+            // 触发输入事件
+            const inputEvent = new Event('input', { bubbles: true });
+            input.dispatchEvent(inputEvent);
+            
+            // 触发变化事件
+            const changeEvent = new Event('change', { bubbles: true });
+            input.dispatchEvent(changeEvent);
+            
+            // 延迟失焦，确保事件处理完成
+            setTimeout(() => {
+                input.blur();
+            }, 100);
+        }
+        get_outbind_list(container_code);
+    })
+        
+    
+    $("#inbound_choose_container_button").on("click", function() {
+            var left_from_w1_code = $("#left_from_c1_code").val();
+            if(left_from_w1_code==''){
+                Toastr.info('请先选择工作位');
+                return false;
+            }
+            var inbound_choose_container_list= $("#inbound_choose_container_list");
+            $.get("{:folder_url('dashboard/get_container_list')}",{
+                num_location_code:left_from_w1_code
+            },function (data){
+                console.log(data);
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    //刷新左边和右边容器列表
+                    var list = data.data;
+                    if(list.length==0){
+                        inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                        return false;
+                    }
+                    var list_html ='';
+                    list_html = list_html+'<table class="table table-bordered">';
+                    list.forEach(function(value,index){
+                        var id = index+1;
+                        list_html = list_html+'<tr><td><input name="inbound_choose_container_id" id="inbound_choose_container_id" type="radio" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                    });
+                    list_html = list_html+' </table>';
+
+                    inbound_choose_container_list.html(list_html);
+                    return false;
+                }
+            }, "json");
+
+    });
+
+    $('#inbound_product_name').blur(function(){
+        inbound_product_name();
+    })  
+    function  inbound_product_name(){
+        let name = $('#inbound_product_name').val();
+        var left_from_w1_code = $("#left_from_c1_code").val();
+        if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        var inbound_choose_container_list= $("#inbound_choose_container_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            product_name:name,num_location_code:left_from_w1_code
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = Object.values(data.data);
+                console.log(list);
+                
+                // var list = data.data;
+                if(list.length==0){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="inbound_choose_container_id" id="inbound_choose_container_id" type="radio" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+
+    }
+
+
+    // 出库，选择料箱,确定
+    $("#inbound_choose_container_submit").on("click", function() {
+        var left_from_c1_code = $("#left_from_c1_code").val();
+        if(left_from_c1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        var container_code = $("input[id='inbound_choose_container_id']:checked").val();
+        // 模拟输入与失去焦点
+        // $('#left_container_code2_title1').focus();
+        // $('#left_container_code2_title1').val(container_code);
+        // $('#left_container_code2_title1').blur();
+        
+        $('#left_container_code2_title1').val(container_code);
+        left_container_code2_title1_blur(container_code)
+    });
+    function left_container_code2_title1_blur(code){
+            $.get("{:folder_url('dashboard/code_to_info')}", {
+                code:code,type:'container'
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    //询问是否创建容器
+                    // if (confirm("容器编号不属于系统内部，是否新建？")) {
+
+                    //     $.get("{:folder_url('dashboard/add_container')}", {
+                    //         container_code:code,cid:cid
+                    //     },function (data){
+                    //         if(data.code===0){
+                    //             Toastr.info(data.msg);
+                    //         }else if(data.code===1){
+                    //             Toastr.info('容器添加成功');
+                    //             $('#left_container_code2').val(code);
+                    //             $('#left_container_code2_title').html(code);
+                    //             return false;
+                    //         }
+
+                    //     }, "json");
+
+                    // } else {
+                    //     // 用户点击了取消按钮
+                    //     // 不执行任何操作
+
+                    // }
+                }else if(data.code===1){
+
+                            console.log('a12a');
+                            $('#left_container_code2').val(data.data.info.numbering);
+                            $('#left_container_code2_title').html(data.data.info.numbering);
+                            get_container_item_list(data.data.info.numbering,'left2_tr','left_c2_id');
+
+
+                    return false;
+                }
+
+            }, "json");
+        }
+
+    // 出库
+    // 出库，选择料箱
+    $("#inbound_container_button").on("click", function() {
+        var left_from_w1_code = $("#left_from_c1_code").val();
+        if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        if(left_from_w1_code != '0003440XX0005000'){
+            Toastr.info('此功能AGV专用,请选择AGV工作位');
+            return false;
+
+        }
+        var inbound_choose_container_list= $("#inbound_container_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            num_location_code:left_from_w1_code
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = data.data;
+                if(list.length==0 || list == ''){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="inbound_container_id" id="inbound_container_id" type="checkbox" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+
+    });
+
+    $('#inbound_product_name_all').blur(function(){
+        inbound_product_name_all();
+    })
+    function inbound_product_name_all(){
+        let name = $('#inbound_product_name_all').val();
+        var left_from_w1_code = $("#left_from_c1_code").val();
+        if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        if(left_from_w1_code != '0003440XX0005000'){
+            Toastr.info('此功能AGV专用,请选择AGV工作位');
+            return false;
+
+        }
+        var inbound_choose_container_list= $("#inbound_container_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            product_name:name,num_location_code:left_from_w1_code
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = Object.values(data.data);
+                    console.log(list);
+                if(list.length==0 || list == ''){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="inbound_container_id" id="inbound_container_id" type="checkbox" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+
+
+    }
+
+
+
+    $("#inbound_container_submit").on("click", function() {
+        var left_from_c1_code = $("#left_from_c1_code").val();
+        if(left_from_c1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        
+            var checkList = [];
+            $('input[id="inbound_container_id"]:checked').each(function(){
+                checkList.push($(this).val());
+            });
+            let idstr = checkList.join(',');
+            console.log(idstr);
+            container_tote_inbound(idstr,left_from_c1_code);  
+    });
+    // 入库
+    // 入库，选择料箱
+    $("#outbound_container_button").on("click", function() {
+        var left_from_w1_code = $("#left_from_w1_code1").val();
+        if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        // if(left_from_w1_code != '0003440XX0005000'){
+        //     Toastr.info('此功能AGV专用,请选择AGV工作位');
+        //     return false;
+
+        // }
+        var inbound_choose_container_list= $("#outbound_container_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            num_location_code:left_from_w1_code,type:'outbound'
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = data.data;
+                if(list.length==0 || list == ''){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="outbound_container_id" id="outbound_container_id" type="checkbox" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+
+    });
+    $('#outbound_container_product_name').blur(function(){
+        outbound_container_product_name();
+    })
+    function outbound_container_product_name(){
+        var left_from_w1_code = $("#left_from_w1_code1").val();
+        let name = $('#outbound_container_product_name').val();
+        if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        // if(left_from_w1_code != '0003440XX0005000'){
+        //     Toastr.info('此功能AGV专用,请选择AGV工作位');
+        //     return false;
+
+        // }
+        var inbound_choose_container_list= $("#outbound_container_list");
+        $.get("{:folder_url('dashboard/get_container_list')}",{
+            product_name:name,num_location_code:left_from_w1_code,type:'outbound'
+        },function (data){
+            console.log(data);
+            if(data.code===0){
+                inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                //刷新左边和右边容器列表
+                var list = Object.values(data.data);
+                    console.log(list);
+                if(list.length==0 || list == ''){
+                    inbound_choose_container_list.html('<p>暂无可用料箱</p>');
+                    return false;
+                }
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+'<tr><td><input name="outbound_container_id" id="outbound_container_id" type="checkbox" value="'+value.numbering+'"></td><td>'+value.id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                inbound_choose_container_list.html(list_html);
+                return false;
+            }
+        }, "json");
+    }
+    $("#outbound_container_submit").on("click", function() {
+        var left_from_c1_code = $("#left_from_w1_code1").val();
+        if(left_from_c1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        
+        var checkList = [];
+        $('input[id="outbound_container_id"]:checked').each(function(){
+            checkList.push($(this).val());
+        });
+        let idstr = checkList.join(',');
+        console.log(idstr);
+        
+        if (confirm("请确定是否呼叫容器？")) { 
+            
+            $.get("{:folder_url('dashboard/get_workbench_bit')}", {
+                location_code:left_from_c1_code
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    return false;
+                }else if(data.code===1){
+                    w_id = data.data.w_id;
+                    w_b_id = data.data.id;
+                    console.log('w_id  :'+w_id);
+                    console.log('w_b_id  :'+w_b_id);
+                    
+                    $.get("{:folder_url('dashboard/container_tote_outbound')}", {
+                        container_code:idstr,to_location_code:left_from_c1_code,w_id:w_id,w_b_id:w_b_id,cid:cid
+                    },function (data){
+                        if(data.code===0){
+                            Toastr.info(data.msg);
+                        }else if(data.code===1){
+                            Toastr.info('容器出库任务已经提交成功，请等待容器到达');
+                            return false;
+                        }
+                    }, "json");
+
+
+                }
+            }, "json");
+
+
+
+            } else {
+                // 用户点击了取消按钮
+                // 不执行任何操作
+
+            }   
+    });
+    // 全选
+    let checked = false;
+    $('#checkall').on('click', function() {
+        checked = !checked;
+        $('input[name="inbound_container_id"]').prop('checked', checked);
+    });
+    let checked_out = false;
+    $('#checkall_out').on('click', function() {
+        checked_out = !checked_out;
+        $('input[name="outbound_container_id"]').prop('checked', checked_out);
+    });
+
+    //货架旋转
+    function rotate_three(type){
+        let name = type == 1 ? 'B面' : 'A面';
+        if (confirm(`请确定旋转货架到${name}?`)){
+            $.get("{:folder_url('dashboard/rotate_three')}",{type:type}, function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    return false;
+                }else if(data.code===1){
+                    Toastr.info('旋转任务提交成功');
+                    return false;
+                }
+            }, "json");
+        }
+    }
+
+
+
+    // 货架移动
+    function move_agv_three(type){
+        let name = type == 1 ? '暂停点' : '工作站';
+        if (confirm(`请确定是否移动货架到${name}?`)){
+            $.get("{:folder_url('dashboard/move_agv_three')}",{type:type}, function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    return false;
+                }else if(data.code===1){
+                    Toastr.info('任务提交成功');
+                    return false;
+                }
+            }, "json");
+        }
+    }
+    function move_agv_four_shelf(type){
+        let name = type == 1 ? '储位' : '暂停点';
+        if (confirm(`请确定是否移动货架到${name}?`)){
+            $.get("{:folder_url('dashboard/move_agv_four_shelf')}",{type:type}, function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    return false;
+                }else if(data.code===1){
+                    Toastr.info('任务提交成功');
+                    return false;
+                }
+            }, "json");
+        }
+    }
+    $('#outbind_code').blur(function(){
+        var left_from_w1_code = $("#left_from_pick1_code").val().trim();
+        if(left_from_w1_code==''){
+            Toastr.info('请先选择工作位');
+            return false;
+        }
+        let code = $('#outbind_code').val().trim();
+        if(code.length!=8){
+            Toastr.info('请输入正确的容器编码');
+            return false;
+        }
+        get_outbind_list(code);
+    });
+
+    // 出库的商品详情
+    function get_outbind_list(code){
+        // var container_list_id_4 = $("input[id='container_list_id_4']:checked").val();
+         var container_list_id_4 = code;       
+        //先模拟出库
+        $("#sortation_container_id").val(container_list_id_4);
+        $("#sortation_container_name").html('容器号：'+container_list_id_4);
+        //模拟出库
+        //获取容器内容
+        var left3_td_1_num= $("#left3_td_1_num");
+        $.get("{:folder_url('dashboard/get_container_item_list')}", {
+            wh_c_numbering:container_list_id_4
+        },function (data1){
+            if(data1.code===0){
+                Toastr.info(data1.msg);
+                left3_td_1_num.html('');
+            }else if(data1.code===1){
+                console.log(data1.data);
+                var list = data1.data;
+                var list_html ='<p>';
+                list.forEach(function(value,index){
+                    console.log(index,value);
+                    var id = index+1;
+                    list_html = list_html+'<button type="button" class="btn btn-primary btn-sm" onclick="sortation_container_item('+value.id+');" >选择</button><button class="btn btn-primary btn-sm" onclick="del_sortation_container_item('+value.id+');" >删除</button> '+id+'.货品编码:'+value.numbering+'|货品名称:'+value.name+'|数量:'+value.num+value.measure_unit+'<p>';
+                });
+                left3_td_1_num.html(list_html);
+
+                $("#left3_td_2_num").html('');
+                $("#left3_td_3_num").html('');
+                $("#left3_td_4_num").html('');
+                $("#left3_td_6_num").html('');
+                $('#left3_td_6_num_max').val('');
+                $('#left3_td_7_num').val(1); 
+                $("#container_item_id").val('');
+
+
+                    //return false;
+
+            }
+
+        }, "json");
+    }
+
+    $(function(){
+        let input_value = document.querySelector('#left_from_c1_code').value.trim();
+        if(input_value == '0003440XX0005000'){
+            $('#left2_container_combo_inbound_in').hide();
+            $('#inbound_container_button').show();
+        }
+        if(input_value == 'R601A01011'){
+            $('#left2_container_combo_inbound_in').show();
+            $('#inbound_container_button').hide();
+        }
+        get_product_warn();
+        // 使用 data-toggle 的方式触发，避免 modal is not a function 错误
+        setTimeout(function() {
+            // $('#autoTrigger').trigger('click');
+             $('#product_warn_list_modal').modal('show');
+        }, 1000);
+        // 初始化加载密集柜物料
+        loadData(1);
+    });
+    function get_product_warn(){
+        var product_warn_list= $("#product_warn_list");
+        var move_product_warn_list= $("#move_product_warn_list");
+        $.get("{:folder_url('dashboard/get_product_warn_list')}",function (data1){
+            if(data1.code===0){
+                Toastr.info(data1.msg);
+                product_warn_list.html('无');
+            }else if(data1.code===1){
+                console.log(data1.data);
+                var list = data1.data;
+                var move_list = data1.list;
+                let list_html='';
+                let move_list_html = '';
+                list_html = list_html+'<table class="table table-bordered">';
+                list_html = list_html+`<tr>
+                    <td>ID</td>
+                    <td>名称</td>
+                    <td>编号</td>
+                    <td>保质期</td>
+                    <td>剩余天数</td>
+                    <td>状态</td>
+                    </tr>`;
+                move_list_html = list_html;
+                move_list.forEach(function(value,index){
+                    var id = index+1;
+                    move_list_html = move_list_html+`<tr>
+                        <td>${value.id}</td>
+                        <td>${value.name}</td>
+                        <td>${value.code}</td>
+                        <td>${value.warn_time}</td>
+                        <td>${value.remaining_days}</td>
+                        <td>${value.tips}</td>
+                        </tr>`;
+                });
+                list.forEach(function(value,index){
+                    var id = index+1;
+                    list_html = list_html+`<tr>
+                        <td>${value.id}</td>
+                        <td>${value.name}</td>
+                        <td>${value.numbering}</td>
+                        <td>${value.warrnty_parts}</td>
+                        <td>${value.remaining_days}</td>
+                        <td>${value.tips}</td>
+                        </tr>`;
+                });
+                move_list_html = move_list_html+' </table>';
+                list_html = list_html+' </table>';
+                product_warn_list.html(list_html);
+                move_product_warn_list.html(move_list_html);
+
+            }
+
+        }, "json");
+    }
+
+    // 密集柜部分
+    // 物料库存搜索
+    var currentKeyword = '';
+    var pageSize =10;
+    $('#left_from_c1_code_s1').blur(function(){
+        currentKeyword = $('#left_from_c1_code_s1').val();
+        loadData(1);
+    });
+    function search_move_product(){
+        currentKeyword = $('#left_from_c1_code_s1').val();
+    }
+
+    // 加载数据函数
+    function loadData(page){
+        
+        $.ajax({
+            url: "{:folder_url('dashboard/get_move_product_list')}",
+            data: {
+                page: page,
+                page_size: pageSize,
+                product_name:currentKeyword
+            },
+            success: function(res){
+                console.log(res);
+                renderTable(res.data);
+                renderPagination(res.count, page);
+            }
+        });
+    }
+
+    // 渲染表格数据
+    function renderTable(data){
+        let html = '';
+        if(data.length<1){
+            $('#dataTable tbody').html('<p>暂无数据</p>');
+            return false;
+        }
+        data.forEach(item => {
+            html += `<tr>
+            <td>${item.id}</td>
+            <td>${item.code}</td>
+            <td>${item.name}</td>
+            <td>${item.warn_time}</td>
+            <td>
+                <button class="btn btn-magic" onclick="printer(${item.id})">打印</button>
+                <button onclick="edit_move_product(${item.id})">编辑</button>
+            </td>
+        </tr>`;
+        });
+        $('#dataTable tbody').html(html);
+    }
+    // 打印
+    function printer(id){
+        if (confirm('确定要打印吗？')){
+            $.get("{:folder_url('product/move_product_printer')}", {
+                id:id
+            },function (data){
+                Toastr.info(data.msg);
+            }, "json");
+        }   
+        
+    }
+    // 修改
+    function edit_move_product(id){
+        var currentUrl = window.location.href;    
+        // 解析出入口文件和基础路径
+        var urlObj = new URL(currentUrl);
+        var pathname = urlObj.pathname; 
+        // 提取入口文件和基础路径
+        var pathParts = pathname.split('/');
+        var entryFile = pathParts[1]; 
+        // 构建正确的URL
+        var correctUrl = '/' + entryFile + '/product/move_edit?ids=' + id;
+        // console.log('正确URL:', correctUrl);
+        Fast.api.open(correctUrl, "FastAdmin", {
+            callback:function(value){
+                // console.log(value);
+                loadData(1)
+            },
+        });
+        
+    }
+
+    // 渲染分页组件
+    function renderPagination(total, current){
+        if(total<=0){
+            return false;
+        }
+        const totalPages = Math.ceil(total / pageSize);
+        let html = `<ul class="pagination">
+        <li class="page-item ${current === 1 ? 'disabled' : ''}">
+            <a class="page-link" href="#" data-page="${current - 1}">上一页</a>
+        </li>`;
+
+        for(let i = 1; i <= totalPages; i++){
+            html += `<li class="page-item ${i === current ? 'active' : ''}">
+            <a class="page-link" href="#" data-page="${i}">${i}</a>
+        </li>`;
+        }
+
+        html += `</ul>`;
+        $('#pagination').html(html);
+    }
+
+    // 分页点击事件
+    $(document).on('click', '.page-link', function(e){
+        e.preventDefault();
+        const page = $(this).data('page');
+        if(page) loadData(page);
+    });
+
+
+    // 获取密集柜库位
+    function getMoveCode(){
+        let get_move_code_list = $('#get_move_code_list');
+        $.get("{:folder_url('dashboard/get_move_code')}",function (data){   
+            //刷新左边和右边容器列表
+            var list = data.data;
+            if(list.length==0){
+                get_move_code_list.html('<p>暂无可用库位</p>');
+                return false;
+            }
+            var list_html ='';
+            list_html = list_html+'<table class="table table-bordered">';
+            list.forEach(function(value,index){
+                var id = index+1;
+                list_html = list_html+'<tr><td><input name="get_move_code_id" id="get_move_code_id" type="radio" value="'+value.code+'"></td><td>'+value.id+'</td><td>'+value.code+'</td><td>'+value.product_list+'</td></tr>';
+            });
+            list_html = list_html+' </table>';
+
+            get_move_code_list.html(list_html);
+            
+        }, "json");
+    }
+    $('#get_move_code_submit').on('click',function(){
+        var container_code = $("input[id='get_move_code_id']:checked").val();
+        $('#move_code').val(container_code);
+        move_list_refresh(container_code);
+        
+    });
+    $('#move_code').blur(function(){
+        let container_code = $('#move_code').val();
+        move_list_refresh(container_code);
+    })
+    // 密集柜列表刷新
+    function move_list_refresh(code){
+        let table_move_list = $('#table_move_list');
+        // 调接口获取列表
+        $.get("{:folder_url('dashboard/get_move_item_list')}",{code:code},function (data){
+            if(data.code == 0){
+                Toastr.info(data.msg);return;
+            }   
+            //刷新左边和右边容器列表
+            var list = data.data;
+            if(list.length==0){
+                table_move_list.html('<p>暂无数据</p>');
+                return false;
+            }
+            var list_html ='';
+            list_html = list_html+'<table class="table table-bordered">';
+            list.forEach(function(value,index){
+                var id = index+1;
+                list_html = list_html+`<tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-sm" onclick="choose_move_item(${value.id})" >选择</button>
+                        <button type="button" class="btn btn-primary btn-sm" onclick="del_move_item('${value.id}','${code}')">删除</button>
+                    </td>
+                    <td>${id}</td>
+                    <td>${value.code}</td>
+                    <td>${value.name}</td>
+                    <td>${value.num}</td>
+                    </tr>`;
+            });
+            list_html = list_html+' </table>';
+
+            table_move_list.html(list_html);
+            
+        }, "json");
+    }
+    // 密集柜物料选择
+    function choose_move_item(id){
+        $.get("{:folder_url('dashboard/choose_move_item')}", {
+            id:id
+        },function (data){
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+
+                $("#table_move_code_input").val(data.data.code);
+                $("#table_move_name_input").val(data.data.name);
+                
+                return false;
+            }
+        }, "json");
+    }
+    $('#table_move_num_input').on('input blur', function() {
+        let val = parseInt($(this).val(), 10);
+        if (isNaN(val) || val < 1) {
+            $(this).val(1);
+            Toastr.info('数量必须大于0');
+        }
+    });
+    // 密集柜删除
+    function del_move_item(id,code){
+        if (confirm('确定要删除吗？')){
+            $.get("{:folder_url('dashboard/del_move_item')}", {
+                id:id,code:code
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    Toastr.info(data.msg);
+                    move_list_refresh(code);
+                    return false;
+                }
+            }, "json");
+        }
+        
+    }
+    // 密集柜取放
+    function move_product_change(type){
+        // 1放 2取
+        let code = $("#table_move_code_input").val();
+        let name = $("#table_move_name_input").val();
+        let num = $("#table_move_num_input").val();
+        let move_code = document.querySelector('#move_code').value;
+        if(code || name){
+            $.get("{:folder_url('dashboard/move_product_change')}", {
+                code:code,move_code:move_code,num:num,name:name,type:type
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                }else if(data.code===1){
+                    Toastr.info(data.msg);
+                    move_list_refresh(move_code);
+                    return false;
+                }
+            }, "json");
+        }
+    }
+
+    // 选择料箱的搜索功能
+    function search_container(num){
+        //  1 入库料箱选择时    inbound_product_name
+        //  2. agv批量入库      inbound_product_name_all
+        //  3. 出库选择料箱      outbind_code_product_name
+        //  4. 呼叫出库选择料箱      sortation_product_name
+        //  5. agv批量出库      outbound_container_product_name
+        switch (num) {
+            case 1:
+                inbound_product_name();
+                break;
+            case 2:
+                inbound_product_name_all();
+                break;
+            case 3:
+                outbind_code_product_name();
+                break;
+            case 4:
+                sortation_product_name_function();
+                break;
+            case 5:
+                outbound_container_product_name();
+                break;
+            default:
+                break;
+        }
+    }
+    // 呼叫出库选择料箱
+    function sortation_product_name_function(){
+        var left_from_w1_code = $("#left_from_w1_code1").val();
+        var sortation_product_name = $('#sortation_product_name').val();
+        var lift_call_container_list_5= $("#lift_call_container_list_5");
+        console.log('呼叫容器列表6');
+        $.get("{:folder_url('dashboard/get_container_list')}", {
+            product_name:sortation_product_name,num_location_code:left_from_w1_code,type:'outbound'
+        },function (data){
+
+            console.log(data);
+            if(data.code===0){
+                Toastr.info(data.msg);
+            }else if(data.code===1){
+                var list = Object.values(data.data);
+                console.log(list);
+                var id_str = 'container_list_id_4';
+                //lift_call_container_list_5.html("");
+                var list_html ='';
+                list_html = list_html+'<table class="table table-bordered">';
+                //console.log('呼叫容器列表6-1'+JSON.stringify(list));
+                //list = Array.from(list);
+                $.each(list, function(index, value){
+                    //list.forEach(function(value,index){
+                    var id = index+1;
+                    //console.log('呼叫容器列表6-2'+id);
+                    list_html = list_html+'<tr><td><input name="container_list_id_4" id="container_list_id_4" type="radio" value="'+value.numbering+'"></td><td>'+id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                    // list_html = list_html+'<tr><td id="'+id_str+value.id+'"><input name="'+id_str+'s" id="'+id_str+'s" type="checkbox" value="'+value.numbering+'"></td><td>'+id+'</td><td>'+value.name+'</td><td>'+value.product_list+'</td><td>正常</td></tr>';
+                });
+                list_html = list_html+' </table>';
+
+                lift_call_container_list_5.html(list_html);
+                return false;
+            }
+        }, "json");
+    }
+
+    // 添加密集柜物料
+    function add_move_product(){
+       var currentUrl = window.location.href;    
+        // 解析出入口文件和基础路径
+        var urlObj = new URL(currentUrl);
+        var pathname = urlObj.pathname; 
+        // 提取入口文件和基础路径
+        var pathParts = pathname.split('/');
+        var entryFile = pathParts[1]; 
+        // 构建正确的URL
+        var correctUrl = '/' + entryFile + '/product/move_add';
+        // console.log('正确URL:', correctUrl);
+        Fast.api.open(correctUrl, "FastAdmin", {
+            callback:function(value){
+                // console.log(value);
+                loadData(1)
+            },
+        }); 
+    }
+
+    //容器绑定
+    function container_move_in(num) {
+        if(num ==1){
+            var set_container_code2 = $("#set_container_code1").val();
+            var set_location_code2 = $("#set_location_code1").val();
+        }else if(num ==2){
+            var set_container_code2 = $("#set_container_code2").val();
+            var set_location_code2 = $("#set_location_code2").val();
+        }else{
+            var set_container_code2 = $("#set_container_code3").val();
+            var set_location_code2 = $("#set_location_code3").val();
+        }
+        
+        $.get("{:folder_url('dashboard/move_in_container')}", {
+            container_code:set_container_code2,location_code:set_location_code2,cid:cid
+        },function (data){
+            if(data.code===0){
+                Toastr.info(data.msg);
+                $("#set_container_code1").val('');
+                $("#set_location_code1").val('');
+                $("#set_container_code2").val('');
+                $("#set_location_code2").val('');
+                $("#set_container_code3").val('');
+                $("#set_location_code3").val('');
+                return false;
+            }else if(data.code===1){
+                Toastr.info(data.msg);
+                $("#set_container_code1").val('');
+                $("#set_location_code1").val('');
+                $("#set_container_code2").val('');
+                $("#set_location_code2").val('');
+                $("#set_container_code3").val('');
+                $("#set_location_code3").val('');
+                return false;
+            }
+
+        }, "json");
+
+    };
+
+        
+
+        //容器解绑
+       function container_move_out(num) {
+            
+        if(num ==1){
+            var set_container_code2 = $("#set_container_code1").val();
+            var set_location_code2 = $("#set_location_code1").val();
+        }else if(num ==2){
+            var set_container_code2 = $("#set_container_code2").val();
+            var set_location_code2 = $("#set_location_code2").val();
+        }else{
+            var set_container_code2 = $("#set_container_code3").val();
+            var set_location_code2 = $("#set_location_code3").val();
+        }
+            console.log('解绑料箱号：'+ set_container_code2);
+            $.get("{:folder_url('dashboard/move_out_container')}", {
+                container_code:set_container_code2,location_code:set_location_code2,cid:cid
+            },function (data){
+                if(data.code===0){
+                    Toastr.info(data.msg);
+                    $("#set_container_code1").val('');
+                    $("#set_location_code1").val('');
+                    $("#set_container_code2").val('');
+                    $("#set_location_code2").val('');
+                    $("#set_container_code3").val('');
+                    $("#set_location_code3").val('');
+                    return false;
+                }else if(data.code===1){
+                    Toastr.info(data.msg);
+                    $("#set_container_code1").val('');
+                    $("#set_location_code1").val('');
+                    $("#set_container_code2").val('');
+                    $("#set_location_code2").val('');
+                    $("#set_container_code3").val('');
+                    $("#set_location_code3").val('');
+                    return false;
+                }
+
+            }, "json");
+        };
+</script>
+<!-- <button id="autoTrigger" 
+        data-toggle="modal" 
+        data-target="#product_warn_list_modal" 
+        style="display:none;">
+    自动触发
+</button> -->
+<div class="modal fade" id="product_warn_list_modal" role="dialog" aria-labelledby="product_warn_list_label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="product_warn_list_label">
+                    过期列表
+                </h4>
+            </div>
+            
+            <!-- modal-body 应该放在 modal-footer 前面 -->
+            <div class="modal-body" id="product_warn_list">
+                <!-- 这里可以显示过期产品列表 -->
+                <p>加载中...</p>
+            </div>
+            <br><br>
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    密集柜过期列表
+                </h4>
+            </div>
+            
+            <!-- modal-body 应该放在 modal-footer 前面 -->
+            <div class="modal-body" id="move_product_warn_list">
+                <!-- 这里可以显示过期产品列表 -->
+                <p>加载中...</p>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+            </div>
+        </div>
+    </div>
+</div>
+
+

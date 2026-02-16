@@ -1,0 +1,135 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-numbering" data-rule="required" class="form-control" name="row[numbering]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-type" class="form-control selectpicker" name="row[type]">
+                {foreach name="typeList" item="vo"}
+                    <option value="{$key}" {in name="key" value=""}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bit_num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-bit_num" data-rule="required" class="form-control" name="row[bit_num]" type="number" value="1">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="statusList" item="vo"}
+            <label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="1"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wave_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wave_numbering" class="form-control" name="row[wave_numbering]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Advice_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-advice_numbering" class="form-control" name="row[advice_numbering]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_id" data-rule="required" data-source="wh/index" class="form-control selectpage" name="row[wh_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_numbering" class="form-control" name="row[wh_numbering]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_name" class="form-control" name="row[wh_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_a_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_a_id" data-rule="required" data-source="wh/a/index" class="form-control selectpage" name="row[wh_a_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_a_numbering')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_a_numbering" class="form-control" name="row[wh_a_numbering]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wh_a_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wh_a_name" class="form-control" name="row[wh_a_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('W_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-w_id" data-rule="required" data-source="w/index" class="form-control selectpage" name="row[w_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Aid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-aid" data-rule="required" class="form-control" name="row[aid]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[add_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Up_aid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-up_aid" class="form-control" name="row[up_aid]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Up_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-up_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[up_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cid" class="form-control" name="row[cid]" type="number" value="1">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

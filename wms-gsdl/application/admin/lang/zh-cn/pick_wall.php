@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'Id'               => '序号',
+    'Name'             => '名称',
+    'Numbering'        => '编号',
+    'Type'             => '类型',
+    'Type 1'           => '分拣墙',
+    'Type 2'           => '分拣车',
+    'Bit_num'          => '暂存位',
+    'Status'           => '状态',
+    'Status 1'         => '启用',
+    'Set status to 1'  => '设为启用',
+    'Status 2'         => '关闭',
+    'Set status to 2'  => '设为关闭',
+    'Wave_numbering'   => '当前波次',
+    'Advice_numbering' => '当前通知单',
+    'Wh_id'            => '仓库id',
+    'Wh_numbering'     => '仓库编号',
+    'Wh_name'          => '仓库名称',
+    'Wh_a_id'          => '库区id',
+    'Wh_a_numbering'   => '库区编号',
+    'Wh_a_name'        => '库区名称',
+    'W_id'             => '工作台id',
+    'Aid'              => '创建人',
+    'Add_time'         => '创建时间',
+    'Up_aid'           => '修改人',
+    'Up_time'          => '修改时间',
+    'Cid'              => '渠道id',
+    'Admin.username'   => '用户名',
+    'Channel.name'     => '渠道名称'
+];

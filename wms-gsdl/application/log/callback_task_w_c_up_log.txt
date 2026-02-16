@@ -1,0 +1,70 @@
+2024-12-18 16:01:08  array (
+  'numbering' => 'HAI-002-036-04',
+  'real_location' => 'HAI-002-036-04',
+  'id' => 257,
+)
+2024-12-21 11:02:48  array (
+  'numbering' => 'CS01-01-06-02',
+  'real_location' => 'CS01-01-06-02',
+  'id' => 663,
+)
+2024-12-21 11:55:29  array (
+  'numbering' => 'CS01-01-06-02',
+  'real_location' => 'CS01-01-06-02',
+  'id' => 663,
+)
+2024-12-21 12:42:20  array (
+  'numbering' => 'HAI-004-001-01',
+  'real_location' => 'HAI-004-001-01',
+  'id' => 37,
+)
+2024-12-21 12:47:49  array (
+  'numbering' => 'HAI-004-002-03',
+  'real_location' => 'HAI-004-002-03',
+  'id' => 300,
+)
+2024-12-21 12:53:03  array (
+  'numbering' => 'CS01-01-06-02',
+  'real_location' => 'CS01-01-06-02',
+  'id' => 663,
+)
+2024-12-21 12:54:25  array (
+  'numbering' => 'HAI-004-001-01',
+  'real_location' => 'HAI-004-001-01',
+  'id' => 37,
+)
+2024-12-21 12:56:55  array (
+  'numbering' => 'HAI-004-002-01',
+  'real_location' => 'HAI-004-002-01',
+  'id' => 306,
+)
+2024-12-21 13:01:31  array (
+  'numbering' => 'CS01-01-06-02',
+  'real_location' => 'CS01-01-06-02',
+  'id' => 663,
+)
+2024-12-21 13:05:23  array (
+  'numbering' => 'HAI-004-001-01',
+  'real_location' => 'HAI-004-001-01',
+  'id' => 37,
+)
+2024-12-21 13:08:16  array (
+  'numbering' => 'CS01-01-06-02',
+  'real_location' => 'CS01-01-06-02',
+  'id' => 663,
+)
+2024-12-21 13:09:48  array (
+  'numbering' => 'HAI-004-002-01',
+  'real_location' => 'HAI-004-002-01',
+  'id' => 306,
+)
+2024-12-21 13:15:03  array (
+  'numbering' => 'CS01-01-06-02',
+  'real_location' => 'CS01-01-06-02',
+  'id' => 663,
+)
+2024-12-21 13:16:24  array (
+  'numbering' => 'HAI-004-002-01',
+  'real_location' => 'HAI-004-002-01',
+  'id' => 306,
+)
